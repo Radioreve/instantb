@@ -1,0 +1,13 @@
+
+{% extends "layout.html" %}
+{% block pagetitle %}{{ obj.landing.page_title }}{% endblock %}
+{% block pagedesc %}{{ obj.landing.page_description }}{% endblock %}
+{% block main_class %}{{ obj.landing.id }}{% endblock %} 
+{% block logo %} <div id="logo" src="{{ obj.landing.logo_url }}" target="/index.html"></div> {% endblock %}
+
+{% block content %}
+
+{% include "notfound.html" %}
+	
+{% endblock %}
+

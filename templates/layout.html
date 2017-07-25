@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{% block pagetitle %}{% endblock %}</title>
+    <meta name="author" content="Instant-B">
+    <meta name="description" content="{% block pagedesc %}{% endblock %}">
+
+    <meta property="og:url" content="http://instant-b.fr"></meta>
+    <meta property="og:name" content="Instant-B | Bars éphémères en entreprise"></meta>
+    <meta property="og:image" content="http://res.cloudinary.com/radioreve/image/upload/v1475834745/vita_smoothie2_xmwb8q.jpg"></meta>
+    <meta property="og:site_name" content="Instant-b"></meta>
+    <meta property="og:description" content="Des instants vitaminés, gourmands, cocktails et souvenirs d'enfance à vos évènements d'entreprise."></meta>
+
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
+	
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/fonts/font-awesome/css/font-awesome.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/imt.css">
+	<link rel="stylesheet" href="lib/marislider/marislider.css">
+	<link rel="stylesheet" href="lib/mikeform/mikeform.css">
+    <link rel="stylesheet" href="lib/navie/navie.css">
+    <!-- <link rel="stylesheet" href="css/app.css"> -->
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/media.css">
+    <!-- <link rel="stylesheet" href="css/media.css"> -->
+    <link rel="stylesheet" href="css/colors.css">
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-98055487-2', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    
+</head>
+
+<body class="x--{% block main_class %}{% endblock %}">
+
+	<!-- Navigation start -->
+	<div nav layout="center" active="{% block navie_active %}{% endblock %}" hover="underline" opts="{% block navie_opts %}{% endblock %}">
+	    <div id="services" label="Nos Instants" target="sub" noarrow>
+	        <div id="vita" label="Instant vitaminé" target="/instants-vitamines.html"></div>
+	        <div id="yummy" label="Instant gourmand" target="/instants-gourmands.html"></div>
+	        <div id="child" label="Instant souvenir" target="/instants-souvenirs.html"></div>
+	        <div id="apero" label="Instant apéritif" target="/instants-aperitifs.html"></div>
+	        <div id="snack" label="Instant snacking" target="/instants-snacking.html"></div>
+	        <div id="fresh" label="Instant fraîcheur" target="/instants-fraicheurs.html"></div>
+	        <div id="cater" label="Instant traiteur" target="/instants-traiteur.html"></div>
+	    </div>
+	    <div id="events" label="Évènements" target="/evenements.html"></div>
+	    {% block logo %}{% endblock %}
+	    {% block title %}{% endblock %}
+	    <div id="quote" label="Devis" target="/devis.html"></div>
+	    <div id="photos" label="Gallerie" target="/photos.html"></div>
+	</div>
+	<!-- Navigation end -->
+  	
+	<!-- Content start -->
+  	{% block content %}{% endblock %}
+  	<!-- Content end -->
+
+	
+	<!-- Footer start -->
+	<section id="footer" class="footer">
+		<div class="footer-title">Restons en contact</div>
+		<div class="footer-splitter"></div>
+		<ul class="follow">
+			<li class="follow-item">
+				<a href="tel:+33764146288"></a>
+				<i class="fa fa-phone"></i>
+			</li>
+			<li class="follow-item">
+				<a href="mailto:contact@instant-b.fr"></a>
+				<i class="fa fa-envelope-o"></i>
+			</li>
+			<li class="follow-item">
+				<a href="https://www.facebook.com/instantb94" target="_blank"></a>
+				<i class="fa fa-facebook"></i>
+			</li>
+			<li class="follow-item">
+				<a href="https://www.instagram.com/1nstantb" target="_blank"></a>
+				<i class="fa fa-instagram"></i>
+			</li>
+		</ul>
+
+	</section>
+	<!-- Footer end --> 
+	
+	<section class="credits">
+		<a target="_blank" href="https://ljaya.me">Propulsé par ljayame</a>
+	</section>
+	
+
+    <!-- Public librairies -->
+    <script src="lib/jquery/jquery.js"></script>
+    <script src="lib/lodash/lodash.js"></script>
+    <script src="lib/velocity/velocity.js"></script>
+    <script src="lib/masonry/masonry.js"></script>
+	
+	<!-- Private librairies -->
+	<script src="lib/navie/navie.js"></script>
+	<script src="lib/emmy/emmy.js"></script>
+	<script src="lib/moment/moment.js"></script>
+    <script src="lib/mikeform/mikeform.js"></script>
+    <script src="lib/marislider/marislider.js"></script>
+
+    <!-- Custom script --> 
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
+

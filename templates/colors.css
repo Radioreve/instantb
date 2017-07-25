@@ -1,0 +1,41 @@
+
+{% for id, data in obj %}
+
+.navie-sublist .navie-item[nav-id="{{ data.id }}"] {
+	transition: none;
+}
+
+.navie-sublist .navie-item[nav-id="{{ data.id }}"]:hover {
+	background-color: {{ data.hex }};
+} 
+
+.navie-sublist .navie-item[nav-id="{{ data.id }}"]:hover span {
+	color: #fff;
+}
+
+body.x--{{ data.id }} .navie-underline {
+	background: {{ data.hex }};
+}
+
+body.x--{{ data.id }} .banner {
+    background-image: url(../{{ data.main_url }});
+}
+body.x--{{ data.id }} .instant-title,
+body.x--{{ data.id }} .instant-details-quote {
+	color: {{ data.hex }};
+}
+
+body.x--{{ data.id }} .instant-details-highlight {
+	font-weight: 500;
+	color: {{ data.hex }};
+}
+
+body.x--{{ data.id }} .instant-splitter {
+    background: {{ data.hex }};
+}
+
+.marislider-item.x--{{ data.id }} .landing-btn {
+	background: {{ data.hex }}
+}
+
+{% endfor %}

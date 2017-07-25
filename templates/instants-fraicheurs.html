@@ -1,0 +1,216 @@
+
+{% extends "layout.html" %}
+
+{% block pagetitle %}{{ obj.fresh.page_title }}{% endblock %}
+{% block pagedesc %}{{ obj.fresh.page_description }}{% endblock %}
+{% block main_class %}{{ obj.fresh.id }}{% endblock %}
+{% block navie_active %}{{ obj.fresh.navie_active }}{% endblock %} 
+{% block logo %} <div id="logo" src="{{ obj.fresh.logo_url }}" target="/index.html"></div> {% endblock %}
+
+{% block content %}
+	
+	   <!-- Banner start -->
+	   <section id="banner" class="banner">
+			<div class="banner-overlay"></div>
+			<div class="banner-title">
+				<h1>Instants fraîcheurs</h1>
+			</div>
+	   </section>
+	   <!-- Banner end -->
+
+	      <!-- Drawings start -->
+	      <section id="drawings" class="drawings">
+	      	<div class="drawings-item x--1">
+	      		<div class="drawing-picture flce" style="background-image:url(img/illu_frozen.png)"></div>
+	   		<p>Frozen yogurts</p>
+	      	</div>
+	      	<div class="drawings-item x--2">
+	      		<div class="drawing-picture flce" style="background-image:url(img/illu_granite.png)"></div>
+	   		<p>Granité</p>
+	      	</div>
+	      	<div class="drawings-item x--3">
+	      		<div class="drawing-picture flce" style="background-image:url(img/illu_sorbet.png)"></div>
+	   		<p>Sorbet moléculaire</p>
+	      	</div>
+	      	   	<div class="drawings-item x--4">
+	      	   		<div class="drawing-picture flce" style="background-image:url(img/illu_icecream.png)"></div>
+	      			<p>Glace</p>
+	      	   	</div>
+	      </section>
+	      <!-- Drawings end -->
+
+	   	
+
+	   	<!-- Instant details (Smoothies) start -->
+	   	<div class="instant-section x--yogurt">
+	   		<div class="instant-header">
+	   			<div class="instant-splitter x--short"></div>
+	   			<div class="instant-title"><h1>Frozen yogurt</h1></div>
+	   			<div class="instant-splitter"></div>
+	   		</div>
+	   		<div class="instant-body imt">
+	   			<div class="instant-body-img imt-picture"></div>
+	   			<div class="instant-body-content imt-content">
+	   				<div class="instant-details">
+	   					<div class="instant-details-title">
+	   						<h1>Le concept</h1>
+	   					</div>
+	   					<p>De délicieux yaourts glacés auxquels viendront s’ajouter différents toppings au choix : fruits, bonbons, coulis, éclats de caramel … Laissez libre court à votre imagination pour composer votre dessert glacé!
+	   					</p>
+	   				</div>
+	   				<div class="instant-details">
+	   					<div class="instant-details-title">
+	   						<h1>Vos options</h1>
+	   					</div>
+	   					<div class="instant-details-content">
+	   						<div class="instant-details-option">
+	   							<span class="bullet"></span>
+	   							<span class="text">Triporteur à glaces</span>
+	   						</div>
+	   						<div class="instant-details-option">
+	   							<span class="bullet"></span>
+	   							<span class="text">Voiture à glaces</span>
+	   						</div>
+	   					</div>
+	   				</div>
+	   				<div class="instant-details-quote">
+	   					<button>Demander un devis <a href="/devis.html"></a></button>
+	   				</div>
+	   			</div>
+	   		</div>
+	   	</div>
+	   	<!-- Instant details (Smoothies) end -->
+
+
+	   	<!-- Instant details (Salads) start -->
+	   	<div class="instant-section x--granite x--inverse">
+	   		<div class="instant-header">
+	   			<div class="instant-splitter"></div>
+	   			<div class="instant-title"><h1>Granité</h1></div>
+	   			<div class="instant-splitter x--short"></div>
+	   		</div>
+	   		<div class="instant-body imt">
+	   			<div class="instant-body-img imt-picture"></div>
+	   			<div class="instant-body-content imt-content">
+	   				<div class="instant-details">
+	   					<div class="instant-details-title">
+	   						<h1>Le concept</h1>
+	   					</div>
+	   					<div class="instant-details-content">
+	   						<p>Originaire de Sicile et aujourd’hui répandu dans le monde entier, de rafaichissants sorbets à base de glace pilée déclinables sous de nombreux parfums : pomme, fraise, cola ...
+	   						</p>
+	   					</div>
+	   				</div>
+	   				<div class="instant-details">
+	   					<div class="instant-details-title">
+	   						<h1>Vos options</h1>
+	   					</div>
+	   					<div class="instant-details-content">
+	   						<div class="instant-details-option">
+	   							<span class="bullet"></span>
+	   							<span class="text">Triporteur à glaces</span>
+	   						</div>
+	   						<div class="instant-details-option">
+	   							<span class="bullet"></span>
+	   							<span class="text">Voiture à glaces</span>
+	   						</div>
+	   					</div>
+	   				</div>
+	   				<div class="instant-details-quote">
+	   					<button>Demander un devis <a href="/devis.html"></a></button>
+	   				</div>
+	   			</div>
+	   		</div>
+	   	</div>
+	   	<!-- Instant details (Salads) end -->
+
+
+	   	<!-- Instant details (Soups) start -->
+	   	<div class="instant-section x--sorbet">
+	   		<div class="instant-header">
+	   			<div class="instant-splitter x--short"></div>
+	   			<div class="instant-title"><h1>Sorbet moléculaire</h1></div>
+	   			<div class="instant-splitter"></div>
+	   		</div>
+	   		<div class="instant-body imt">
+	   			<div class="instant-body-img imt-picture"></div>
+	   			<div class="instant-body-content imt-content">
+	   				<div class="instant-details">
+	   					<div class="instant-details-title">
+	   						<h1>Le concept</h1>
+	   					</div>
+	   					<div class="instant-details-content">
+	   						<p>De délicieux cocktails de fruits frais transformés en sorbet en un éclair grâce à de l'azote liquide. Spectacle garanti pour vos convives qui seront à coup sûr séduit par le procédé !
+	   						</p>
+	   					</div>
+	   				</div>
+	   				<div class="instant-details">
+	   					<div class="instant-details-title">
+	   						<h1>Vos options</h1>
+	   					</div>
+	   					<div class="instant-details-content">
+	   						<div class="instant-details-option">
+	   							<span class="bullet"></span>
+	   							<span class="text">Triporteur à glaces</span>
+	   						</div>
+	   						<div class="instant-details-option">
+	   							<span class="bullet"></span>
+	   							<span class="text">Voiture à glaces</span>
+	   						</div>
+	   					</div>
+	   				</div>
+	   				<div class="instant-details-quote">
+	   					<button>Demander un devis <a href="/devis.html"></a></button>
+	   				</div>
+	   			</div>
+	   		</div>
+	   	</div>
+	   	<!-- Instant details (Soups) end -->
+
+	   	<!-- Instant details (Soups) start -->
+	   	<div class="instant-section x--inverse x--icecream">
+	   		<div class="instant-header">
+	   			<div class="instant-splitter x--short"></div>
+	   			<div class="instant-title"><h1>Glace</h1></div>
+	   			<div class="instant-splitter"></div>
+	   		</div>
+	   		<div class="instant-body imt">
+	   			<div class="instant-body-img imt-picture"></div>
+	   			<div class="instant-body-content imt-content">
+	   				<div class="instant-details">
+	   					<div class="instant-details-title">
+	   						<h1>Le concept</h1>
+	   					</div>
+	   					<div class="instant-details-content">
+	   						<p>Envie d’avoir un stand de marchand de glaces pour votre évènement?  À l’italienne, en pot ou en boule, notre large choix de glace rafraîchira vos convives en toute circonstance ! 
+	   						</p>
+	   					</div>
+	   				</div>
+	   				<div class="instant-details">
+	   					<div class="instant-details-title">
+	   						<h1>Vos options</h1>
+	   					</div>
+	   					<div class="instant-details-content">
+	   						<div class="instant-details-option">
+	   							<span class="bullet"></span>
+	   							<span class="text">Triporteur à glaces</span>
+	   						</div>
+	   						<div class="instant-details-option">
+	   							<span class="bullet"></span>
+	   							<span class="text">Voiture à glaces</span>
+	   						</div>
+	   					</div>
+	   				</div>
+	   				<div class="instant-details-quote">
+	   					<button>Demander un devis <a href="/devis.html"></a></button>
+	   				</div>
+	   			</div>
+	   		</div>
+	   	</div>
+	   	<!-- Instant details (Soups) end -->
+
+		{% include "knowmore.html" %}
+
+	
+{% endblock %}
+

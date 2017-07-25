@@ -1,0 +1,430 @@
+
+
+
+.navie-sublist .navie-item[nav-id="landing"] {
+	transition: none;
+}
+
+.navie-sublist .navie-item[nav-id="landing"]:hover {
+	background-color: #ffe500;
+} 
+
+.navie-sublist .navie-item[nav-id="landing"]:hover span {
+	color: #fff;
+}
+
+body.x--landing .navie-underline {
+	background: #ffe500;
+}
+
+body.x--landing .banner {
+    background-image: url(../);
+}
+body.x--landing .instant-title,
+body.x--landing .instant-details-quote {
+	color: #ffe500;
+}
+
+body.x--landing .instant-details-highlight {
+	font-weight: 500;
+	color: #ffe500;
+}
+
+body.x--landing .instant-splitter {
+    background: #ffe500;
+}
+
+.marislider-item.x--landing .landing-btn {
+	background: #ffe500
+}
+
+
+
+.navie-sublist .navie-item[nav-id="vita"] {
+	transition: none;
+}
+
+.navie-sublist .navie-item[nav-id="vita"]:hover {
+	background-color: #6cad2e;
+} 
+
+.navie-sublist .navie-item[nav-id="vita"]:hover span {
+	color: #fff;
+}
+
+body.x--vita .navie-underline {
+	background: #6cad2e;
+}
+
+body.x--vita .banner {
+    background-image: url(../img/vita_main.jpg);
+}
+body.x--vita .instant-title,
+body.x--vita .instant-details-quote {
+	color: #6cad2e;
+}
+
+body.x--vita .instant-details-highlight {
+	font-weight: 500;
+	color: #6cad2e;
+}
+
+body.x--vita .instant-splitter {
+    background: #6cad2e;
+}
+
+.marislider-item.x--vita .landing-btn {
+	background: #6cad2e
+}
+
+
+
+.navie-sublist .navie-item[nav-id="yummy"] {
+	transition: none;
+}
+
+.navie-sublist .navie-item[nav-id="yummy"]:hover {
+	background-color: #f7b55c;
+} 
+
+.navie-sublist .navie-item[nav-id="yummy"]:hover span {
+	color: #fff;
+}
+
+body.x--yummy .navie-underline {
+	background: #f7b55c;
+}
+
+body.x--yummy .banner {
+    background-image: url(../img/gourmand_main.jpg);
+}
+body.x--yummy .instant-title,
+body.x--yummy .instant-details-quote {
+	color: #f7b55c;
+}
+
+body.x--yummy .instant-details-highlight {
+	font-weight: 500;
+	color: #f7b55c;
+}
+
+body.x--yummy .instant-splitter {
+    background: #f7b55c;
+}
+
+.marislider-item.x--yummy .landing-btn {
+	background: #f7b55c
+}
+
+
+
+.navie-sublist .navie-item[nav-id="child"] {
+	transition: none;
+}
+
+.navie-sublist .navie-item[nav-id="child"]:hover {
+	background-color: #ed57a1;
+} 
+
+.navie-sublist .navie-item[nav-id="child"]:hover span {
+	color: #fff;
+}
+
+body.x--child .navie-underline {
+	background: #ed57a1;
+}
+
+body.x--child .banner {
+    background-image: url(../img/enfance_main.jpg);
+}
+body.x--child .instant-title,
+body.x--child .instant-details-quote {
+	color: #ed57a1;
+}
+
+body.x--child .instant-details-highlight {
+	font-weight: 500;
+	color: #ed57a1;
+}
+
+body.x--child .instant-splitter {
+    background: #ed57a1;
+}
+
+.marislider-item.x--child .landing-btn {
+	background: #ed57a1
+}
+
+
+
+.navie-sublist .navie-item[nav-id="apero"] {
+	transition: none;
+}
+
+.navie-sublist .navie-item[nav-id="apero"]:hover {
+	background-color: #eb6d5b;
+} 
+
+.navie-sublist .navie-item[nav-id="apero"]:hover span {
+	color: #fff;
+}
+
+body.x--apero .navie-underline {
+	background: #eb6d5b;
+}
+
+body.x--apero .banner {
+    background-image: url(../img/apero_main.jpg);
+}
+body.x--apero .instant-title,
+body.x--apero .instant-details-quote {
+	color: #eb6d5b;
+}
+
+body.x--apero .instant-details-highlight {
+	font-weight: 500;
+	color: #eb6d5b;
+}
+
+body.x--apero .instant-splitter {
+    background: #eb6d5b;
+}
+
+.marislider-item.x--apero .landing-btn {
+	background: #eb6d5b
+}
+
+
+
+.navie-sublist .navie-item[nav-id="snack"] {
+	transition: none;
+}
+
+.navie-sublist .navie-item[nav-id="snack"]:hover {
+	background-color: #c68d4e;
+} 
+
+.navie-sublist .navie-item[nav-id="snack"]:hover span {
+	color: #fff;
+}
+
+body.x--snack .navie-underline {
+	background: #c68d4e;
+}
+
+body.x--snack .banner {
+    background-image: url(../img/snacking_main.jpg);
+}
+body.x--snack .instant-title,
+body.x--snack .instant-details-quote {
+	color: #c68d4e;
+}
+
+body.x--snack .instant-details-highlight {
+	font-weight: 500;
+	color: #c68d4e;
+}
+
+body.x--snack .instant-splitter {
+    background: #c68d4e;
+}
+
+.marislider-item.x--snack .landing-btn {
+	background: #c68d4e
+}
+
+
+
+.navie-sublist .navie-item[nav-id="fresh"] {
+	transition: none;
+}
+
+.navie-sublist .navie-item[nav-id="fresh"]:hover {
+	background-color: #5FC5F0;
+} 
+
+.navie-sublist .navie-item[nav-id="fresh"]:hover span {
+	color: #fff;
+}
+
+body.x--fresh .navie-underline {
+	background: #5FC5F0;
+}
+
+body.x--fresh .banner {
+    background-image: url(../img/fraicheur_main.jpg);
+}
+body.x--fresh .instant-title,
+body.x--fresh .instant-details-quote {
+	color: #5FC5F0;
+}
+
+body.x--fresh .instant-details-highlight {
+	font-weight: 500;
+	color: #5FC5F0;
+}
+
+body.x--fresh .instant-splitter {
+    background: #5FC5F0;
+}
+
+.marislider-item.x--fresh .landing-btn {
+	background: #5FC5F0
+}
+
+
+
+.navie-sublist .navie-item[nav-id="cater"] {
+	transition: none;
+}
+
+.navie-sublist .navie-item[nav-id="cater"]:hover {
+	background-color: #ec594f;
+} 
+
+.navie-sublist .navie-item[nav-id="cater"]:hover span {
+	color: #fff;
+}
+
+body.x--cater .navie-underline {
+	background: #ec594f;
+}
+
+body.x--cater .banner {
+    background-image: url(../img/traiteur_main.jpg);
+}
+body.x--cater .instant-title,
+body.x--cater .instant-details-quote {
+	color: #ec594f;
+}
+
+body.x--cater .instant-details-highlight {
+	font-weight: 500;
+	color: #ec594f;
+}
+
+body.x--cater .instant-splitter {
+    background: #ec594f;
+}
+
+.marislider-item.x--cater .landing-btn {
+	background: #ec594f
+}
+
+
+
+.navie-sublist .navie-item[nav-id="events"] {
+	transition: none;
+}
+
+.navie-sublist .navie-item[nav-id="events"]:hover {
+	background-color: #ffe500;
+} 
+
+.navie-sublist .navie-item[nav-id="events"]:hover span {
+	color: #fff;
+}
+
+body.x--events .navie-underline {
+	background: #ffe500;
+}
+
+body.x--events .banner {
+    background-image: url(../img/events.jpg);
+}
+body.x--events .instant-title,
+body.x--events .instant-details-quote {
+	color: #ffe500;
+}
+
+body.x--events .instant-details-highlight {
+	font-weight: 500;
+	color: #ffe500;
+}
+
+body.x--events .instant-splitter {
+    background: #ffe500;
+}
+
+.marislider-item.x--events .landing-btn {
+	background: #ffe500
+}
+
+
+
+.navie-sublist .navie-item[nav-id="quote"] {
+	transition: none;
+}
+
+.navie-sublist .navie-item[nav-id="quote"]:hover {
+	background-color: #ffe500;
+} 
+
+.navie-sublist .navie-item[nav-id="quote"]:hover span {
+	color: #fff;
+}
+
+body.x--quote .navie-underline {
+	background: #ffe500;
+}
+
+body.x--quote .banner {
+    background-image: url(../);
+}
+body.x--quote .instant-title,
+body.x--quote .instant-details-quote {
+	color: #ffe500;
+}
+
+body.x--quote .instant-details-highlight {
+	font-weight: 500;
+	color: #ffe500;
+}
+
+body.x--quote .instant-splitter {
+    background: #ffe500;
+}
+
+.marislider-item.x--quote .landing-btn {
+	background: #ffe500
+}
+
+
+
+.navie-sublist .navie-item[nav-id="photos"] {
+	transition: none;
+}
+
+.navie-sublist .navie-item[nav-id="photos"]:hover {
+	background-color: #ffe500;
+} 
+
+.navie-sublist .navie-item[nav-id="photos"]:hover span {
+	color: #fff;
+}
+
+body.x--photos .navie-underline {
+	background: #ffe500;
+}
+
+body.x--photos .banner {
+    background-image: url(../);
+}
+body.x--photos .instant-title,
+body.x--photos .instant-details-quote {
+	color: #ffe500;
+}
+
+body.x--photos .instant-details-highlight {
+	font-weight: 500;
+	color: #ffe500;
+}
+
+body.x--photos .instant-splitter {
+    background: #ffe500;
+}
+
+.marislider-item.x--photos .landing-btn {
+	background: #ffe500
+}
+

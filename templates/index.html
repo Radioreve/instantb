@@ -1,0 +1,90 @@
+
+{% extends "layout.html" %}
+
+{% block pagetitle %}{{ obj.landing.page_title }}{% endblock %}
+{% block pagedesc %}{{ obj.landing.page_description }}{% endblock %}
+{% block main_class %}{{ obj.landing.id }}{% endblock %}
+{% block navie_active %}{{ obj.landing.navie_active }}{% endblock %} 
+{% block navie_opts %}{{ obj.landing.navie_opts }}{% endblock %} 
+{% block logo %} <div id="logo" src="{{ obj.landing.logo_url }}" noop target="/index.html"></div> {% endblock %}
+{% block title %} <div id="title" label="{{ obj.landing.title }}"></div> {% endblock %}
+
+{% block content %}
+	
+	<!-- Instants img slider start -->
+	<section id="instants-img" class="landing-section x--instants-img">
+		<div class="flexslider">
+			<ul class="slides">
+				<li><img src="" alt=""></li>
+			</ul>
+			<ul class="slides">
+				<li><img src="" alt=""></li>
+			</ul>
+			<ul class="slides">
+				<li><img src="" alt=""></li>
+			</ul>
+			<ul class="slides">
+				<li><img src="" alt=""></li>
+			</ul>
+			<ul class="slides">
+				<li><img src="" alt=""></li>
+			</ul>
+			<ul class="slides">
+				<li><img src="" alt=""></li>
+			</ul>
+			<ul class="slides">
+				<li><img src="" alt=""></li>
+			</ul>
+		</div>
+	</section>
+	<!-- Instants img slider end -->
+
+	<!-- Instants text start -->
+	<section id="instants-txt" class="landing-section x--instants-txt x--centered">
+		<div class="instants-txt">
+			<div class="instants-txt-header"></div>
+			<div class="instants-txt-body"></div>
+			<div class="instants-txt-tags"></div>
+		</div>
+	</section>
+	<!--  Instants text end -->
+	
+	<!-- Traiteur start -->
+	
+	<!-- Traiteur end -->
+
+	<!-- Testimonials start -->
+	<section id="testimons" class="landing-section x--testimons x--centered">
+		<div class="diag-splitter x--top"></div>
+		<div class="diag-splitter x--bottom"></div>
+		<div class="landing-section__h1">
+			<h1>Ils font appel à nous</h1>
+		</div>
+		<div class="landing-section__splitter"></div>
+		<div class="testimons-brands">
+			<div class="testimon-row">
+				<div class="testimon-item x--maxi"><img src="img/brands/tf1.jpeg" alt="TF1"></div>
+				<div class="testimon-item"><img src="img/brands/octo.png" alt="Octo Technology"></div>
+				<div class="testimon-item x--mini"><img src="img/brands/icade2.png" alt="Icade"></div>
+				<div class="testimon-item"><img src="img/brands/decathlon.png" alt="Décathlon"></div>
+				<div class="testimon-item x--maxi"><img src="img/brands/technip.png" alt="Technip"></div>
+			</div>
+			<div class="testimon-row">
+				<div class="testimon-item"><img src="img/brands/akka.jpeg" alt="AKKA Technology"></div>
+				<div class="testimon-item x--maxi"><img src="img/brands/printemps.jpg" alt="Printemps"></div>
+				<div class="testimon-item x--maxi"><img src="img/brands/caissedepargne.png" alt="Caisse d'épargne"></div>
+			</div>
+			<div class="testimon-row">
+				<div class="testimon-item"><img src="img/brands/axagroup.png" alt="Axa Groupe"></div>
+				<div class="testimon-item"><img src="img/brands/valmande.jpeg" alt="Val Mandé"></div>
+				<!-- Put more pictures here in the future -->
+			</div>
+		</div>
+	</section>
+	<!-- Testimonials end -->
+	
+	{% include "knowmore.html" %}
+	
+
+{% endblock %}
+

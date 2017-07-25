@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+    <title>Library | Navie</title>
+    <meta name="author" content="Test">
+    <meta name="description" content="Library development">
+        
+    <link rel="stylesheet" href="../common/reset.css">
+    <link rel="stylesheet" href="../common/common.css">
+    <link rel="stylesheet" href="navie.css">
+    
+</head>
+
+<body class="x--tall">
+    
+    <!-- 
+    layout :
+        left | center | right  <- define the base position of the nav, defaults to left
+        small <- smaller fonts sizes
+        underlined <- hover effect: displayed a fade underline on hover and active
+    hover : 
+        underline <- defined the ui effect when nav active and hovered
+    anim : 
+        delayed <- delay the apparition of the nav
+        sliding <- hide when scrolling top direction
+    type :
+        link <-
+        scroll <-
+    opts :
+        shrink <- shrink/expand meny when scrolling
+     -->
+    <div nav layout="center" hover="underline" >
+        <div active label="Accueil" id="hello" target="/hello.html"></div>
+        <div id="team" label="Equipe" target="/team.html"></div>
+        <div id="serviettes" label="Sous les pavés..." target="sub">
+            <div id="coco" label="Coconuts" target=".espace"></div>
+            <div id="beach" label="Beaches" target=".sun"></div>
+        </div>
+        <div id="logo" src="logo.png" label="Nightmatch" target="/index.html"></div>
+        <div id="flowers" label="Fleurs" target="/fleurs.html"></div>
+        <div id="services" label="Services" target="sub">
+            <div id="space" label="Espace détente bord de mer" target=".espace"></div>
+            <div id="sun" label="Soleil" target=".sun"></div>
+        </div>
+
+        <div id="jeannette" label="Jeanette" target=".jeanette"></div>
+    </div>
+
+    <div class="library">
+        <div class="library-background">
+            <div class="espace">
+                <h1>Espace</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, dicta accusantium ratione consequuntur placeat maiores necessitatibus provident eveniet doloremque quibusdam harum voluptatem voluptates! Magni, nesciunt modi quo tempore inventore rem.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt deserunt possimus rerum perferendis inventore, excepturi facilis, a eius reiciendis mollitia natus maxime deleniti eos quae illo maiores autem reprehenderit adipisci.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="library">
+        <div class="library-background">
+            <div class="sun">
+                <h1>Soleil</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, dicta accusantium ratione consequuntur placeat maiores necessitatibus provident eveniet doloremque quibusdam harum voluptatem voluptates! Magni, nesciunt modi quo tempore inventore rem.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt deserunt possimus rerum perferendis inventore, excepturi facilis, a eius reiciendis mollitia natus maxime deleniti eos quae illo maiores autem reprehenderit adipisci.</p>
+            </div>
+        </div>
+    </div>
+
+   <!-- Librairies -->
+    <script src="../jquery/jquery.js"></script> <!-- Dom manipulation -->
+    <script src="../lodash/lodash.js"></script> <!-- Language augmentation -->
+    <script src="../velocity/velocity.js"></script> <!-- Transitions -->
+    
+    <!-- Components -->
+    <script src="navie.js"></script>
+
+
+</body>
+
+</html>
+

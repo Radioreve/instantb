@@ -1,0 +1,39 @@
+body {
+    font-family: 'open sans';
+}
+
+body.x--tall {
+    height: 2000px;
+}
+
+.library {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 30px;
+    background: #eee;
+}
+
+.library-background {
+    background: white;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+.library-input-wrap {
+    height: 40px;
+    width: 200px;
+    margin: 40px auto 0;
+}
+
+.library-rect {
+    height: 300px;
+}
+
+
+.my-picture {
+	background-image: url(../img/mike/10.jpg);
+}
+
+.my-content {
+	padding: 10px;
+}

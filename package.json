@@ -1,0 +1,27 @@
+{
+  "name": "instantb",
+  "version": "1.0.0",
+  "description": "Instant-b awesome website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Instant-B"
+  ],
+  "author": "Radioreve",
+  "license": "ISC",
+  "devDependencies": {
+    "clear-require": "1.0.1",
+    "gulp": "3.9.1",
+    "gulp-concat": "2.6.0",
+    "gulp-data": "1.2.1",
+    "gulp-html-extract": "0.2.0",
+    "gulp-html-replace": "1.6.1",
+    "gulp-nunjucks": "2.3.0",
+    "autoprefixer": "6.7.0",
+    "gulp-postcss": "6.3.0"
+  },
+  "dependencies": {
+  }
+}

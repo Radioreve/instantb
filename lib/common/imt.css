@@ -1,0 +1,52 @@
+.imt {
+    display: flex;
+    width: 100%;
+}
+.imt-picture,
+.imt-content {
+    width: 50%;
+}
+.imt-picture {
+    background-size: cover;
+    background-position: center center;
+}
+
+.imt-content {
+    padding: 50px;
+    flex-shrink: 0;
+}
+.imt.x--inverse .imt-picture {
+   order: 1;
+}
+
+.imt-content > * {
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+@media (max-width: 750px){
+
+    .landing-section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .imt {
+        flex-flow: column;
+    }
+    .imt-picture {
+        width: 100%;
+        height: 200px;
+        order: 0!important;
+    }
+    .imt-content {
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+ 
+    .landing-section.x--instants .landing-btn {
+        width: 100%!important;
+    }
+} 
