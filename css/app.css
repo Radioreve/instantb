@@ -120,6 +120,7 @@ a:hover {}
     height: 300px;
     position: absolute;
     transition: none;
+    border: none;
 }
 
 .navie[active="landing"]:not(.x--responsive) .navie-list {
@@ -157,23 +158,23 @@ a:hover {}
 }
 
 .navie-icon img {
-    width: 90%; 
+    width: 90%;
 }
- 
+
 .navie-item {
     font-weight: 500;
     font-size: 13px;
     width: 142px;
     font-family: 'caviar-bold';
     color: #484848;
-} 
+}
 
 .navie[active="landing"].x--responsive .navie-item {
 }
 
 .navie[active="landing"] .navie-item.x--title {
     display: none;
-} 
+}
 .navie[active="landing"]:not(.x--responsive) .navie-item.x--title {
     display: block;
     position: absolute;
@@ -202,6 +203,37 @@ a:hover {}
    padding: 0 20px;
 }
 
+.marislider-wrap.x--pictures {
+    padding-bottom: 25%;
+}
+
+.landing-img-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: rgba(0,0,0,0.2);
+}
+.landing-section.x--instants-img .marislider-wrap {
+    width: 100%;
+}
+
+.landing-section.x--instants-img .marislider-wrap.x--content {
+    display: none;
+}
+
+.wave {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  z-index: 1;
+} 
+
+.wave img {
+    width: 100%;
+}
+ 
+.landing-section.x--instants-img {position: relative;box-sizing: border-box;padding: 0;margin: 0 20px;}
 
 .landing-section {}
 
@@ -236,7 +268,7 @@ a:hover {}
     padding: 100px 0;
     text-align: center;
 }
- 
+
 .landing-section.x--occasions {
     background: #fbfbfb;
     position: relative;
@@ -361,6 +393,10 @@ button:hover {
 
 .navie + * {
     margin-top: 100px;
+}
+
+.navie[active="landing"]:not(.x--responsive) + * {
+    margin-top: 330px;
 }
 
 button a {
@@ -670,7 +706,7 @@ button a,
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    margin-top: 120px;
+    margin-top: 100px;
     background: #b73373;
     color: white;
 }
@@ -768,7 +804,7 @@ button a,
 }
 
 .banner-title h1 {
-    font-size: 90px; 
+    font-size: 90px;
     z-index: 1;
     text-align: center;
     font-family: 'creamy';
@@ -1177,7 +1213,7 @@ button a,
 }
 
 #keyinhand {
-    margin-top: 170px;
+    padding-top: 70px;
     margin-bottom: 50px;
 }
 .keyinhand-btn {

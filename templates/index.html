@@ -4,38 +4,25 @@
 {% block pagetitle %}{{ obj.landing.page_title }}{% endblock %}
 {% block pagedesc %}{{ obj.landing.page_description }}{% endblock %}
 {% block main_class %}{{ obj.landing.id }}{% endblock %}
-{% block navie_active %}{{ obj.landing.navie_active }}{% endblock %} 
-{% block navie_opts %}{{ obj.landing.navie_opts }}{% endblock %} 
+{% block navie_active %}{{ obj.landing.navie_active }}{% endblock %}
+{% block navie_opts %}{{ obj.landing.navie_opts }}{% endblock %}
 {% block logo %} <div id="logo" src="{{ obj.landing.logo_url }}" noop target="/index.html"></div> {% endblock %}
 {% block title %} <div id="title" label="{{ obj.landing.title }}"></div> {% endblock %}
 
 {% block content %}
-	
+
 	<!-- Instants img slider start -->
 	<section id="instants-img" class="landing-section x--instants-img">
-		<div class="flexslider">
-			<ul class="slides">
-				<li><img src="" alt=""></li>
-			</ul>
-			<ul class="slides">
-				<li><img src="" alt=""></li>
-			</ul>
-			<ul class="slides">
-				<li><img src="" alt=""></li>
-			</ul>
-			<ul class="slides">
-				<li><img src="" alt=""></li>
-			</ul>
-			<ul class="slides">
-				<li><img src="" alt=""></li>
-			</ul>
-			<ul class="slides">
-				<li><img src="" alt=""></li>
-			</ul>
-			<ul class="slides">
-				<li><img src="" alt=""></li>
-			</ul>
-		</div>
+    <div class="landing-img-overlay"></div>
+    <section class="marislider" centered autoslide>
+      <div data-src="/img/vita_main.jpg"></div>
+      <div data-src="/img/gourmand_main.jpg"></div>
+      <div data-src="/img/enfance_main.jpg"></div>
+      <div data-src="/img/fraicheur_main.jpg"></div>
+      <div data-src="/img/apero_main.jpg"></div>
+      <div data-src="/img/snacking_main.jpg"></div>
+      <div data-src="/img/traiteur_main.jpg"></div>
+    </section>
 	</section>
 	<!-- Instants img slider end -->
 
@@ -48,9 +35,9 @@
 		</div>
 	</section>
 	<!--  Instants text end -->
-	
+
 	<!-- Traiteur start -->
-	
+
 	<!-- Traiteur end -->
 
 	<!-- Testimonials start -->
@@ -82,9 +69,9 @@
 		</div>
 	</section>
 	<!-- Testimonials end -->
-	
+
 	{% include "knowmore.html" %}
-	
+
 
 {% endblock %}
 

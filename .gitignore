@@ -3,4 +3,12 @@
 **/référence
 **/img
 catalogue_instantb.pdf
+**/.eslintcache
 
+# IntelliJ IDEA / WebStorm / RubyMine / PhpStorm
+**/.idea
+**/*.iml
+**/.rakeTasks
+
+# MacOS
+**/.DS_Store
