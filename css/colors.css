@@ -7,7 +7,7 @@
 
 .navie-sublist .navie-item[nav-id="landing"]:hover {
 	background-color: #ffe500;
-} 
+}
 
 .navie-sublist .navie-item[nav-id="landing"]:hover span {
 	color: #fff;
@@ -20,7 +20,7 @@ body.x--landing .navie-underline {
 body.x--landing .banner {
     background-image: url(../);
 }
-body.x--landing .instant-title,
+.x--landing .instant-title,
 body.x--landing .instant-details-quote {
 	color: #ffe500;
 }
@@ -30,7 +30,11 @@ body.x--landing .instant-details-highlight {
 	color: #ffe500;
 }
 
-body.x--landing .instant-splitter {
+.x--landing .instant-splitter {
+    background: #ffe500;
+}
+
+.x--landing .instants-tag {
     background: #ffe500;
 }
 
@@ -46,7 +50,7 @@ body.x--landing .instant-splitter {
 
 .navie-sublist .navie-item[nav-id="vita"]:hover {
 	background-color: #6cad2e;
-} 
+}
 
 .navie-sublist .navie-item[nav-id="vita"]:hover span {
 	color: #fff;
@@ -59,7 +63,7 @@ body.x--vita .navie-underline {
 body.x--vita .banner {
     background-image: url(../img/vita_main.jpg);
 }
-body.x--vita .instant-title,
+.x--vita .instant-title,
 body.x--vita .instant-details-quote {
 	color: #6cad2e;
 }
@@ -69,7 +73,11 @@ body.x--vita .instant-details-highlight {
 	color: #6cad2e;
 }
 
-body.x--vita .instant-splitter {
+.x--vita .instant-splitter {
+    background: #6cad2e;
+}
+
+.x--vita .instants-tag {
     background: #6cad2e;
 }
 
@@ -85,7 +93,7 @@ body.x--vita .instant-splitter {
 
 .navie-sublist .navie-item[nav-id="yummy"]:hover {
 	background-color: #f7b55c;
-} 
+}
 
 .navie-sublist .navie-item[nav-id="yummy"]:hover span {
 	color: #fff;
@@ -98,7 +106,7 @@ body.x--yummy .navie-underline {
 body.x--yummy .banner {
     background-image: url(../img/gourmand_main.jpg);
 }
-body.x--yummy .instant-title,
+.x--yummy .instant-title,
 body.x--yummy .instant-details-quote {
 	color: #f7b55c;
 }
@@ -108,7 +116,11 @@ body.x--yummy .instant-details-highlight {
 	color: #f7b55c;
 }
 
-body.x--yummy .instant-splitter {
+.x--yummy .instant-splitter {
+    background: #f7b55c;
+}
+
+.x--yummy .instants-tag {
     background: #f7b55c;
 }
 
@@ -124,7 +136,7 @@ body.x--yummy .instant-splitter {
 
 .navie-sublist .navie-item[nav-id="child"]:hover {
 	background-color: #ed57a1;
-} 
+}
 
 .navie-sublist .navie-item[nav-id="child"]:hover span {
 	color: #fff;
@@ -137,7 +149,7 @@ body.x--child .navie-underline {
 body.x--child .banner {
     background-image: url(../img/enfance_main.jpg);
 }
-body.x--child .instant-title,
+.x--child .instant-title,
 body.x--child .instant-details-quote {
 	color: #ed57a1;
 }
@@ -147,7 +159,11 @@ body.x--child .instant-details-highlight {
 	color: #ed57a1;
 }
 
-body.x--child .instant-splitter {
+.x--child .instant-splitter {
+    background: #ed57a1;
+}
+
+.x--child .instants-tag {
     background: #ed57a1;
 }
 
@@ -163,7 +179,7 @@ body.x--child .instant-splitter {
 
 .navie-sublist .navie-item[nav-id="apero"]:hover {
 	background-color: #eb6d5b;
-} 
+}
 
 .navie-sublist .navie-item[nav-id="apero"]:hover span {
 	color: #fff;
@@ -176,7 +192,7 @@ body.x--apero .navie-underline {
 body.x--apero .banner {
     background-image: url(../img/apero_main.jpg);
 }
-body.x--apero .instant-title,
+.x--apero .instant-title,
 body.x--apero .instant-details-quote {
 	color: #eb6d5b;
 }
@@ -186,7 +202,11 @@ body.x--apero .instant-details-highlight {
 	color: #eb6d5b;
 }
 
-body.x--apero .instant-splitter {
+.x--apero .instant-splitter {
+    background: #eb6d5b;
+}
+
+.x--apero .instants-tag {
     background: #eb6d5b;
 }
 
@@ -202,7 +222,7 @@ body.x--apero .instant-splitter {
 
 .navie-sublist .navie-item[nav-id="snack"]:hover {
 	background-color: #c68d4e;
-} 
+}
 
 .navie-sublist .navie-item[nav-id="snack"]:hover span {
 	color: #fff;
@@ -215,7 +235,7 @@ body.x--snack .navie-underline {
 body.x--snack .banner {
     background-image: url(../img/snacking_main.jpg);
 }
-body.x--snack .instant-title,
+.x--snack .instant-title,
 body.x--snack .instant-details-quote {
 	color: #c68d4e;
 }
@@ -225,7 +245,11 @@ body.x--snack .instant-details-highlight {
 	color: #c68d4e;
 }
 
-body.x--snack .instant-splitter {
+.x--snack .instant-splitter {
+    background: #c68d4e;
+}
+
+.x--snack .instants-tag {
     background: #c68d4e;
 }
 
@@ -241,7 +265,7 @@ body.x--snack .instant-splitter {
 
 .navie-sublist .navie-item[nav-id="fresh"]:hover {
 	background-color: #5FC5F0;
-} 
+}
 
 .navie-sublist .navie-item[nav-id="fresh"]:hover span {
 	color: #fff;
@@ -254,7 +278,7 @@ body.x--fresh .navie-underline {
 body.x--fresh .banner {
     background-image: url(../img/fraicheur_main.jpg);
 }
-body.x--fresh .instant-title,
+.x--fresh .instant-title,
 body.x--fresh .instant-details-quote {
 	color: #5FC5F0;
 }
@@ -264,7 +288,11 @@ body.x--fresh .instant-details-highlight {
 	color: #5FC5F0;
 }
 
-body.x--fresh .instant-splitter {
+.x--fresh .instant-splitter {
+    background: #5FC5F0;
+}
+
+.x--fresh .instants-tag {
     background: #5FC5F0;
 }
 
@@ -280,7 +308,7 @@ body.x--fresh .instant-splitter {
 
 .navie-sublist .navie-item[nav-id="cater"]:hover {
 	background-color: #ec594f;
-} 
+}
 
 .navie-sublist .navie-item[nav-id="cater"]:hover span {
 	color: #fff;
@@ -293,7 +321,7 @@ body.x--cater .navie-underline {
 body.x--cater .banner {
     background-image: url(../img/traiteur_main.jpg);
 }
-body.x--cater .instant-title,
+.x--cater .instant-title,
 body.x--cater .instant-details-quote {
 	color: #ec594f;
 }
@@ -303,7 +331,11 @@ body.x--cater .instant-details-highlight {
 	color: #ec594f;
 }
 
-body.x--cater .instant-splitter {
+.x--cater .instant-splitter {
+    background: #ec594f;
+}
+
+.x--cater .instants-tag {
     background: #ec594f;
 }
 
@@ -319,7 +351,7 @@ body.x--cater .instant-splitter {
 
 .navie-sublist .navie-item[nav-id="events"]:hover {
 	background-color: #ffe500;
-} 
+}
 
 .navie-sublist .navie-item[nav-id="events"]:hover span {
 	color: #fff;
@@ -332,7 +364,7 @@ body.x--events .navie-underline {
 body.x--events .banner {
     background-image: url(../img/events.jpg);
 }
-body.x--events .instant-title,
+.x--events .instant-title,
 body.x--events .instant-details-quote {
 	color: #ffe500;
 }
@@ -342,7 +374,11 @@ body.x--events .instant-details-highlight {
 	color: #ffe500;
 }
 
-body.x--events .instant-splitter {
+.x--events .instant-splitter {
+    background: #ffe500;
+}
+
+.x--events .instants-tag {
     background: #ffe500;
 }
 
@@ -358,7 +394,7 @@ body.x--events .instant-splitter {
 
 .navie-sublist .navie-item[nav-id="quote"]:hover {
 	background-color: #ffe500;
-} 
+}
 
 .navie-sublist .navie-item[nav-id="quote"]:hover span {
 	color: #fff;
@@ -371,7 +407,7 @@ body.x--quote .navie-underline {
 body.x--quote .banner {
     background-image: url(../);
 }
-body.x--quote .instant-title,
+.x--quote .instant-title,
 body.x--quote .instant-details-quote {
 	color: #ffe500;
 }
@@ -381,7 +417,11 @@ body.x--quote .instant-details-highlight {
 	color: #ffe500;
 }
 
-body.x--quote .instant-splitter {
+.x--quote .instant-splitter {
+    background: #ffe500;
+}
+
+.x--quote .instants-tag {
     background: #ffe500;
 }
 
@@ -397,7 +437,7 @@ body.x--quote .instant-splitter {
 
 .navie-sublist .navie-item[nav-id="photos"]:hover {
 	background-color: #ffe500;
-} 
+}
 
 .navie-sublist .navie-item[nav-id="photos"]:hover span {
 	color: #fff;
@@ -410,7 +450,7 @@ body.x--photos .navie-underline {
 body.x--photos .banner {
     background-image: url(../);
 }
-body.x--photos .instant-title,
+.x--photos .instant-title,
 body.x--photos .instant-details-quote {
 	color: #ffe500;
 }
@@ -420,11 +460,16 @@ body.x--photos .instant-details-highlight {
 	color: #ffe500;
 }
 
-body.x--photos .instant-splitter {
+.x--photos .instant-splitter {
+    background: #ffe500;
+}
+
+.x--photos .instants-tag {
     background: #ffe500;
 }
 
 .marislider-item.x--photos .landing-btn {
 	background: #ffe500
 }
+
 

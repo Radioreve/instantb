@@ -61,3 +61,15 @@ $(document).ready(function () {
 });
 
 
+function showInstantText(link) {
+  $('.instants-txt').removeClass('x--active');
+  $('.instants-txt[data-link="'+ link +'"]').addClass('x--active');
+}
+
+$(document).ready(function () {
+  Emmy.on("marislider:show", function (data) {
+    console.log("Showing slider : " + data.link);
+    showInstantText(data.link);
+  });
+});
+

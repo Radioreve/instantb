@@ -7,7 +7,7 @@
 
 .navie-sublist .navie-item[nav-id="{{ data.id }}"]:hover {
 	background-color: {{ data.hex }};
-} 
+}
 
 .navie-sublist .navie-item[nav-id="{{ data.id }}"]:hover span {
 	color: #fff;
@@ -20,7 +20,7 @@ body.x--{{ data.id }} .navie-underline {
 body.x--{{ data.id }} .banner {
     background-image: url(../{{ data.main_url }});
 }
-body.x--{{ data.id }} .instant-title,
+.x--{{ data.id }} .instant-title,
 body.x--{{ data.id }} .instant-details-quote {
 	color: {{ data.hex }};
 }
@@ -30,7 +30,11 @@ body.x--{{ data.id }} .instant-details-highlight {
 	color: {{ data.hex }};
 }
 
-body.x--{{ data.id }} .instant-splitter {
+.x--{{ data.id }} .instant-splitter {
+    background: {{ data.hex }};
+}
+
+.x--{{ data.id }} .instants-tag {
     background: {{ data.hex }};
 }
 

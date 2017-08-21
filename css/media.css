@@ -28,6 +28,18 @@
 		  margin-top: 53px;
 	}
 
+	.instants-txt-title {
+		width: 100%;
+		font-size: 14px;
+	}
+
+	.instants-tags {
+		flex-flow: column;
+	}
+	.instants-tag {
+		margin: 8px 0;
+	}
+
 }
 
 @media (max-width: 750px){
@@ -203,5 +215,9 @@
 	.testimon-item img {
 		max-width: 100px;
 		height: auto;
+	}
+
+	.wave {
+		display: none;
 	}
 } 
