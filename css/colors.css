@@ -350,7 +350,7 @@ body.x--cater .instant-details-highlight {
 }
 
 .navie-sublist .navie-item[nav-id="events"]:hover {
-	background-color: #ffe500;
+	background-color: #399DD1;
 }
 
 .navie-sublist .navie-item[nav-id="events"]:hover span {
@@ -358,7 +358,7 @@ body.x--cater .instant-details-highlight {
 }
 
 body.x--events .navie-underline {
-	background: #ffe500;
+	background: #399DD1;
 }
 
 body.x--events .banner {
@@ -366,24 +366,24 @@ body.x--events .banner {
 }
 .x--events .instant-title,
 body.x--events .instant-details-quote {
-	color: #ffe500;
+	color: #399DD1;
 }
 
 body.x--events .instant-details-highlight {
 	font-weight: 500;
-	color: #ffe500;
+	color: #399DD1;
 }
 
 .x--events .instant-splitter {
-    background: #ffe500;
+    background: #399DD1;
 }
 
 .x--events .instants-tag {
-    background: #ffe500;
+    background: #399DD1;
 }
 
 .marislider-item.x--events .landing-btn {
-	background: #ffe500
+	background: #399DD1
 }
 
 

@@ -231,14 +231,14 @@ a:hover {
   z-index: 1;
   transform: translate(-50%,0);
   left: 50%;
-}
+} 
 
 .wave img {
   width: 100%;
 }
 
 .landing-section.x--instants-txt {
-  padding: 0 30px;
+  /* padding: 0 30px; */
 }
 
 .instants-txt {
@@ -273,8 +273,7 @@ a:hover {
   border-radius: 100px;
 }
 
-.landing-section.x--instants-img,
-.landing-section.x--instants-txt {
+.landing-section.x--instants-img, .landing-section.x--instants-txt, .landing-section.x--events {
   max-width: 1400px;
   margin: 0 auto;
 }
