@@ -49,13 +49,36 @@
 	</section>
 
   <!-- clé en main start -->
-  <section id="allin">
-    <div class="landing-section x--events x--centered">
-      <div class="instant-header">
-        <div class="instant-splitter"></div>
-        <div class="instant-title"><h1>{{obj.events.title}}</h1></div>
-        <div class="instant-splitter"></div>
+  <section id="allin" class="landing-section x--events x--centered">
+    <div class="instant-header">
+      <div class="instant-splitter"></div>
+      <div class="instant-title"><h1>{{obj.events.title}}</h1></div>
+      <div class="instant-splitter"></div>
+    </div>
+    <div class="instants-txt-title"><p>{{obj.events.desc}}</p></div>
+    <div class="instants-icons">
+      {% for i in range(0, 3) -%}
+      <div class="instant-icon">
+        <div class="instant-icon-img">
+          <img class="instant-icon__img" src={{obj.events.types[i].icon_url}}>
+        </div>
+        <div class="instant-icon-label">
+          <span class="instant-icon-label__span">{{obj.events.types[i].name}}</span>
+        </div>
       </div>
+      {% endfor %}
+    </div>
+    <div class="instants-icons">
+      {% for i in range(3, 6) -%}
+      <div class="instant-icon">
+        <div class="instant-icon-img">
+          <img class="instant-icon__img" src={{obj.events.types[i].icon_url}}>
+        </div>
+        <div class="instant-icon-label">
+          <span class="instant-icon-label__span">{{obj.events.types[i].name}}</span>
+        </div>
+      </div>
+      {% endfor %}
     </div>
   </section>
   <!-- Clé en main ends  -->

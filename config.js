@@ -1,6 +1,5 @@
 module.exports = {
   obj: {
-
     landing: {
       id: "landing",
       hex: "#ffe500",
@@ -12,7 +11,6 @@ module.exports = {
       page_title: "Instant-B | Animations entreprise, soirées, bars à thème et évènement",
       page_description: "Découvrez nos animations pour vos évènements d'entreprise : bar à smoothies, fontaine de chocolat, animation crêpes, bar à cocktails, food truck, buffets traiteurs, animations glaces… Votre évènement entreprise sur mesure : soirées, stands, séminaires, avec Instant-B."
     },
-
     vita: {
       id: "vita",
       index: 1,
@@ -47,7 +45,7 @@ module.exports = {
       index: 3,
       hex: "#ed57a1",
       title: "Instants souvenirs d'enfance",
-      desc: "Hello world",
+      desc: "Des animations originales qui transporteront vos convives en enfance le temps de votre événement !",
       hashtags: ["hash 1", "hash 2", "hash 3"],
       logo_url: "img/logo/logo_text_pink_mk.png",
       main_url: "img/enfance_main.jpg",
@@ -98,7 +96,6 @@ module.exports = {
       page_title: "Instant fraîcheur | Animation frozen yogurt, glace, sorbet moléculaire",
       page_description: "L’instant fraicheur c’est une multitude d’animations pour rafraichir vos convives : glaces à l’italienne, frozen yogurt, granités, sorbets moléculaires."
     },
-
     cater: {
       id: "cater",
       index: 7,
@@ -111,20 +108,20 @@ module.exports = {
       navie_active: "services",
       page_url: "/traiteur.html",
       page_title: "Instant traiteur | Buffet terroir, pièce cocktail, petit-four, ",
-      page_description: " Régalez vos convives avec nos différents buffets traiteurs déclinables sous de nombreuses thématiques : pièces cocktails, pièces japonaises, pièces orientales, buffet terroir, plateaux de fromages…"
+      page_description: "Régalez vos convives avec nos différents buffets traiteurs déclinables sous de nombreuses thématiques : pièces cocktails, pièces japonaises, pièces orientales, buffet terroir, plateaux de fromages…"
     },
-
     events: {
       id: "events",
-      hex: "#399DD1",
+      hex: "#ffe500",
       title: "Votre évènement clé en main",
+      desc: "Régalez vos convives avec nos différents buffets traiteurs déclinables sous de nombreuses thématiques : pièces cocktails, pièces japonaises, pièces orientales, buffet terroir, plateaux de fromages…",
       types: [
-        {name: "Lieux", icon_url: ""},
-        {name: "Food", icon_url: ""},
-        {name: "Musique", icon_url: ""},
-        {name: "Photos", icon_url: ""},
-        {name: "Transport", icon_url: ""},
-        {name: "Divertissements", icon_url: ""}
+        {name: "Lieux", icon_url: "img/icons/houses.svg"},
+        {name: "Food", icon_url: "img/icons/cutlery.svg"},
+        {name: "Musique", icon_url: "img/icons/headphones.svg"},
+        {name: "Photos", icon_url: "img/icons/photo-camera.svg"},
+        {name: "Transport", icon_url: "img/icons/van.svg"},
+        {name: "Divertissements", icon_url: "img/icons/headphones.svg"}
       ],
       logo_url: "img/logo/logo_text_yellow_mk.png",
       main_url: "img/events.jpg",
@@ -133,7 +130,6 @@ module.exports = {
       page_title: "Votre évènement clé en main | Salle, lieu, matériel, DJ, photographe, magicien…",
       page_description: "Instant-B vous accompagne sur la gestion clé en main de vos événements : lieux, restauration, performers, matériels"
     },
-
     quote: {
       id: "quote",
       hex: "#ffe500",
@@ -144,7 +140,6 @@ module.exports = {
       page_title: "Instant-B | Devis",
       page_description: "Votre devis pour tout le catalogue de nos prestations en moins de 48 heures !"
     },
-
     photos: {
       id: "photos",
       hex: "#ffe500",
@@ -154,7 +149,5 @@ module.exports = {
       page_title: "Instant-B | Photos",
       page_description: "Découvrez notre gallerie de photos prises lors de nos évènements."
     }
-
   }
-
 };

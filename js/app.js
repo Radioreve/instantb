@@ -39,7 +39,7 @@ $(document).ready(function () {
   Macy.init({
     container: '#mason',
     trueOrder: false,
-    columns: 5,
+    columns: 4,
     waitForImages: false,
     margin: 20
   });
@@ -72,4 +72,6 @@ $(document).ready(function () {
     showInstantText(data.link);
   });
 });
+
+console.log("%c Crafted with love by radioreve. ","background: #75306b; color: #FFF;font-weight: 500;padding: 5px;")
 
