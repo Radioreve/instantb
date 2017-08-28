@@ -32,14 +32,36 @@ function stickNav() {
   }
 }
 
+function showInstantText(link) {
+  $('.instants-txt').removeClass('x--active');
+  $('.instants-txt[data-link="'+ link +'"]').addClass('x--active');
+}
 
-/* Pinto container */
 $(document).ready(function () {
+  Emmy.on("marislider:show", function (data) {
+    console.log("Showing slider : " + data.link);
+    showInstantText(data.link);
+  });
+});
 
+$(document).ready(function () {
+  var numberOfColumns;
+  if ($(window).width() < 400) {
+    numberOfColumns = 1;
+  }
+  else if ($(window).width() < 700) {
+    numberOfColumns = 2;
+  }
+  else if ($(window).width() < 1000) {
+    numberOfColumns = 3;
+  }
+  else {
+    numberOfColumns = 4;
+  }
   Macy.init({
     container: '#mason',
     trueOrder: false,
-    columns: 4,
+    columns: numberOfColumns,
     waitForImages: false,
     margin: 20
   });
@@ -57,21 +79,8 @@ $(document).ready(function () {
       stagger: 400
     }, 1000);
   });
-
 });
 
-
-function showInstantText(link) {
-  $('.instants-txt').removeClass('x--active');
-  $('.instants-txt[data-link="'+ link +'"]').addClass('x--active');
-}
-
-$(document).ready(function () {
-  Emmy.on("marislider:show", function (data) {
-    console.log("Showing slider : " + data.link);
-    showInstantText(data.link);
-  });
-});
 
 console.log("%c Crafted with love by radioreve. ","background: #75306b; color: #FFF;font-weight: 500;padding: 5px;")
 

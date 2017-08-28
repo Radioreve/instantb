@@ -61,7 +61,7 @@ body.x--vita .navie-underline {
 }
 
 body.x--vita .banner {
-    background-image: url(../img/vita_main.jpg);
+    background-image: url(../img/vita_main_banner.jpg);
 }
 .x--vita .instant-title,
 body.x--vita .instant-details-quote {
@@ -104,7 +104,7 @@ body.x--yummy .navie-underline {
 }
 
 body.x--yummy .banner {
-    background-image: url(../img/gourmand_main.jpg);
+    background-image: url(../img/gourmand_main_banner.jpg);
 }
 .x--yummy .instant-title,
 body.x--yummy .instant-details-quote {
@@ -147,7 +147,7 @@ body.x--child .navie-underline {
 }
 
 body.x--child .banner {
-    background-image: url(../img/enfance_main.jpg);
+    background-image: url(../img/enfance_main_banner.jpg);
 }
 .x--child .instant-title,
 body.x--child .instant-details-quote {
@@ -190,7 +190,7 @@ body.x--apero .navie-underline {
 }
 
 body.x--apero .banner {
-    background-image: url(../img/apero_main.jpg);
+    background-image: url(../img/apero_main_banner.jpg);
 }
 .x--apero .instant-title,
 body.x--apero .instant-details-quote {
@@ -233,7 +233,7 @@ body.x--snack .navie-underline {
 }
 
 body.x--snack .banner {
-    background-image: url(../img/snacking_main.jpg);
+    background-image: url(../img/snacking_main_banner3.jpg);
 }
 .x--snack .instant-title,
 body.x--snack .instant-details-quote {
@@ -276,7 +276,7 @@ body.x--fresh .navie-underline {
 }
 
 body.x--fresh .banner {
-    background-image: url(../img/fraicheur_main.jpg);
+    background-image: url(../img/fraicheur_main_banner.jpg);
 }
 .x--fresh .instant-title,
 body.x--fresh .instant-details-quote {
@@ -298,49 +298,6 @@ body.x--fresh .instant-details-highlight {
 
 .marislider-item.x--fresh .landing-btn {
 	background: #5FC5F0
-}
-
-
-
-.navie-sublist .navie-item[nav-id="cater"] {
-	transition: none;
-}
-
-.navie-sublist .navie-item[nav-id="cater"]:hover {
-	background-color: #ec594f;
-}
-
-.navie-sublist .navie-item[nav-id="cater"]:hover span {
-	color: #fff;
-}
-
-body.x--cater .navie-underline {
-	background: #ec594f;
-}
-
-body.x--cater .banner {
-    background-image: url(../img/traiteur_main.jpg);
-}
-.x--cater .instant-title,
-body.x--cater .instant-details-quote {
-	color: #ec594f;
-}
-
-body.x--cater .instant-details-highlight {
-	font-weight: 500;
-	color: #ec594f;
-}
-
-.x--cater .instant-splitter {
-    background: #ec594f;
-}
-
-.x--cater .instants-tag {
-    background: #ec594f;
-}
-
-.marislider-item.x--cater .landing-btn {
-	background: #ec594f
 }
 
 

@@ -14,15 +14,12 @@
 	<!-- Instants img slider start -->
 	<section id="instants-img" class="landing-section x--instants-img">
     <div class="landing-img-overlay"></div>
-    <section class="marislider" centered autoslide>
-      <div data-src="/img/vita_main.jpg"></div>
-      <div data-src="/img/gourmand_main.jpg"></div>
-      <div data-src="/img/enfance_main.jpg"></div>
-      <div data-src="/img/fraicheur_main.jpg"></div>
-      <div data-src="/img/apero_main.jpg"></div>
-      <div data-src="/img/snacking_main.jpg"></div>
-      <div data-src="/img/traiteur_main.jpg"></div>
+    <section class="marislider" centered autoslide waves>
+      {% for instant_id, instant in obj -%}
+      {% if instant.slider -%}<div data-src="{{instant.main_url}}"></div>{% endif %}
+      {% endfor -%}
     </section>
+
 	</section>
 	<!-- Instants img slider end -->
 
@@ -39,7 +36,7 @@
           <div class="instants-txt-title"><p>{{instant.desc}}</p></div>
           <div class="instants-tags">
             {% for tag in instant.hashtags -%}
-            <div class="instants-tag">{{tag}}</div>
+            <div class="instants-tag">#{{tag}}</div>
             {% endfor -%}
           </div>
         </div>
