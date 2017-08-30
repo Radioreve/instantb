@@ -116,7 +116,7 @@ a:hover {
 }
 
 .navie[active="landing"]:not(.x--responsive) {
-  height: 300px;
+  height: 240px;
   position: absolute;
   transition: none;
   border: none;
@@ -133,7 +133,7 @@ a:hover {
 
 .navie[active="landing"] .navie-item.x--logo {
   position: absolute;
-  width: 180px;
+  width: 140px;
   top: 20px;
 }
 
@@ -205,7 +205,7 @@ a:hover {
 }
 
 .marislider-wrap.x--pictures {
-  padding-bottom: 25%;
+  padding-bottom: 33%;
 }
 
 .landing-img-overlay {
@@ -267,11 +267,13 @@ a:hover {
 }
 
 .instants-tag {
-  padding: 4px 30px;
+  padding: 6px 30px;
   background: #c3c3c3;
   color: white;
   margin: 0 10px;
   border-radius: 100px;
+  font-size: 16px;
+  font-weight: bolder;
 }
 
 body.x--events .marislider-wrap.x--content {
@@ -500,7 +502,7 @@ button:hover {
 }
 
 .navie[active="landing"]:not(.x--responsive) + * {
-  margin-top: 330px;
+  margin-top: 260px;
 }
 
 button a {
@@ -533,6 +535,19 @@ button a {
   transition: none;
   color: #333333;
   position: relative;
+}
+
+.video {
+  margin-top: 150px;
+  flex-flow: column;
+  display: none;
+}
+
+.video-title {
+  text-align: center;
+  font-family: 'honey-semi';
+  font-size: 40px;
+  margin-bottom: 20px;
 }
 
 .knowmore button:hover {
@@ -1149,7 +1164,7 @@ button a,
 }
 
 .instant-section.x--waffles .instant-body-img {
-  background-image: url(../img/gourmand_crepes2.jpg);
+  background-image: url(../img/gourmand_crepes.jpg);
 }
 
 .instant-section.x--coffee .instant-body-img {
@@ -1157,11 +1172,11 @@ button a,
 }
 
 .instant-section.x--choco .instant-body-img {
-  background-image: url(../img/gourmand_choco2.jpg);
+  background-image: url(../img/gourmand_choco.jpg);
 }
 
 .instant-section.x--barbapapa .instant-body-img {
-  background-image: url(../img/enfance_barbapapa3.jpg);
+  background-image: url(../img/enfance_barbapapa.jpg);
 }
 
 .instant-section.x--popcorn .instant-body-img {

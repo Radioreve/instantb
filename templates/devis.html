@@ -3,11 +3,11 @@
 {% block pagetitle %}{{ obj.quote.page_title }}{% endblock %}
 {% block pagedesc %}{{ obj.quote.page_description }}{% endblock %}
 {% block main_class %}{{ obj.quote.id }}{% endblock %}
-{% block navie_active %}{{ obj.quote.navie_active }}{% endblock %}  
+{% block navie_active %}{{ obj.quote.navie_active }}{% endblock %}
 {% block logo %} <div id="logo" src="{{ obj.quote.logo_url }}" target="/index.html"></div> {% endblock %}
 
 {% block content %}
-	
+
 	<div class="quote-banner">
 		<div class="quote-banner-content">
 			<div class="quote-banner-title">
@@ -16,9 +16,6 @@
 			<div class="quote-banner-body">
 				<h2>Pour toute demande de devis, veuillez remplir le formulaire ci-dessous.</h2>
 			</div>
-		</div>
-		<div class="quote-banner-button">
-			<button><a href="catalogue_instantb.pdf" target="_blank"></a>Télécharger le catalogue</button>
 		</div>
 	</div>
 
@@ -56,7 +53,7 @@
 			Si vous souhaitez des informations complémentaires, n'hésitez pas à nous contacter au 09.81.72.67.71
 		</div>
 	</div>
-		
+
 	{% include "knowmore.html" %}
-	
+
 {% endblock %}

@@ -93,7 +93,7 @@
     "operator-assignment": ["error", "always"],
     "prefer-arrow-callback": ["warn", {"allowUnboundThis": false}],
     "prefer-promise-reject-errors": "error",
-    "quotes": ["error", "single"],
+    "quotes": ["error", "double"],
     "quote-props": ["error", "as-needed", {"keywords": true}],
     "radix": "error",
     "semi": ["error", "always"],

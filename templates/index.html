@@ -30,7 +30,7 @@
         <div class="instants-txt x--{{instant.id}} {{'x--active' if instant.slider_start}}" data-link="{{instant.index}}">
           <div class="instant-header">
             <div class="instant-splitter"></div>
-            <div class="instant-title"><h1>{{instant.title}}</h1></div>
+            <div class="instant-title"><h1>{{instant.title | capitalize}}</h1></div>
             <div class="instant-splitter"></div>
           </div>
           <div class="instants-txt-title"><p>{{instant.desc}}</p></div>
@@ -44,6 +44,13 @@
     {% endfor -%}
     <!--  Instants text end -->
 	</section>
+
+
+  <div class="video flce">
+    <div class="video-title">Votre évènement clef en main</div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/aI0u3zr8vuM?ecver=1" frameborder="0" allowfullscreen></iframe>
+  </div>
+
 
   <!-- clé en main start -->
   <section id="allin" class="landing-section x--events x--centered">

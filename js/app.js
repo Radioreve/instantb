@@ -47,7 +47,7 @@ $(document).ready(function () {
 $(document).ready(function () {
   var numberOfColumns;
   if ($(window).width() < 400) {
-    numberOfColumns = 1;
+    return;
   }
   else if ($(window).width() < 700) {
     numberOfColumns = 2;

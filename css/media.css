@@ -44,6 +44,13 @@
 
 @media (max-width: 750px){
 	
+	.instant-title h1 {
+		font-size: 40px;
+		margin-top: 20px;
+	}
+	.video {
+		margin-top: 50px;
+	}
 	.instants-icons {
 		flex-flow: column;
 	}
@@ -102,10 +109,10 @@
     height: 200px;
 }
 	.banner-overlay {}
-	.banner-title {}
+	.banner-title {}n
 	.banner-title h1 {}
 
-	.drawings {flex-wrap: wrap;margin-bottom: 50px;margin-top: 50px;}
+	.drawings {flex-wrap: wrap;margin-bottom: 50px;visibility: hidden;height: 0px;margin-top: 0px;}
 	.drawings-item {
     width: 100%;
     margin: 0;
@@ -162,6 +169,9 @@
 @media (max-width: 500px){
 	.quote-banner-title {
 		display: none;
+	}
+	#mason div {
+		margin: 15px 0;
 	}
 	.quote-banner-button {
 		margin-top: -10px;

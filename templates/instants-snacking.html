@@ -4,11 +4,11 @@
 {% block pagetitle %}{{ obj.snack.page_title }}{% endblock %}
 {% block pagedesc %}{{ obj.snack.page_description }}{% endblock %}
 {% block main_class %}{{ obj.snack.id }}{% endblock %}
-{% block navie_active %}{{ obj.snack.navie_active }}{% endblock %} 
+{% block navie_active %}{{ obj.snack.navie_active }}{% endblock %}
 {% block logo %} <div id="logo" src="{{ obj.snack.logo_url }}" target="/index.html"></div> {% endblock %}
 
 {% block content %}
-	
+
 	   <!-- Banner start -->
 	   <section id="banner" class="banner">
 			<div class="banner-overlay"></div>
@@ -61,7 +61,7 @@
 	   					</div>
 	   					<p>
 	   						Deux petits pains nature, sésame ou pavot garnis de
-	   						nos savoureuses recettes.
+                nos savoureuses recettes.
 	   					</p>
 	   				</div>
 	   				<div class="instant-details">
@@ -138,7 +138,7 @@
 	   	</div>
 	   	<!-- Instant details (Paninis) end -->
 
-		
+
 		<!-- Instant details (Croques) start -->
 		<div class="instant-section x--croque">
 			<div class="instant-header">
@@ -280,6 +280,6 @@
 		<!-- Instant details (Burgers) end -->
 
 	   {% include "knowmore.html" %}
-	
+
 {% endblock %}
 
