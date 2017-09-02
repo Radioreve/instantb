@@ -7,7 +7,7 @@ module.exports = {
       title: "Un traiteur pas comme les autres",
       //navie_opts: "revealed",
       navie_active: "landing",
-      page_url: "/index.html",
+      page_url: "/index.html.njk",
       page_title: "Instant-B | Animations entreprise, soirées, bars à thème et évènement",
       page_description: "Découvrez nos animations pour vos évènements d'entreprise : bar à smoothies, fontaine de chocolat, animation crêpes, bar à cocktails, food truck, buffets traiteurs, animations glaces… Votre évènement entreprise sur mesure : soirées, stands, séminaires, avec Instant-B."
     },
@@ -33,7 +33,7 @@ module.exports = {
       slider: true,
       hex: "#f7b55c",
       title: "Instants gourmands",
-      desc: "Notre fontaine de chocolat et nos animations crêpes, gaufres et café gourmands vous feront oublier que la gourmandise est un vilain défaut !",
+      desc: "Nos fontaines de chocolat et nos animations crêpes, gaufres et cafés gourmands vous feront oublier que la gourmandise est un vilain défaut !",
       hashtags: ["crêpes", "fontaîneChoco", "caféGourmand"],
       logo_url: "img/logo/logo_text_orange_mk.png",
       main_url: "img/gourmand_main_banner.jpg",
@@ -48,7 +48,7 @@ module.exports = {
       slider: true,
       hex: "#ed57a1",
       title: "Instants souvenirs d'enfance",
-      desc: "Nos animations barbe à papa, pop-corn et notre candy bar transporteront vos convives en enfance le temps de votre événement ! Idéal pour une créer une ambiance fête foraine !",
+      desc: "Nos animations barbe à papa, pop-corn et notre candy bar transporteront vos convives en enfance le temps de votre événement !",
       hashtags: ["bonbons", "barbapapas", "popcorn"],
       logo_url: "img/logo/logo_text_pink_mk.png",
       main_url: "img/enfance_main_banner.jpg",
@@ -78,10 +78,10 @@ module.exports = {
       slider: true,
       hex: "#c68d4e",
       title: "Instants snacking",
-      desc: "Découvrez tous nos concepts de Food Truck en entreprise à consommer à chaque instant. Bagels, hot-dogs, burgers, panini, pizzas… Tous nos produits sont confectionnés sur place et servis à la demande.",
+      desc: "Nos Bagels, hot-dogs, burgers, panini, pizzas…sont confectionnés sur place et servis à la demande.",
       hashtags: ["bagels", "hotdog", "paninis", "burgers"],
       logo_url: "img/logo/logo_text_brown_mk.png",
-      main_url: "img/snacking_main_banner3.jpg",
+      main_url: "img/snacking_main_banner.jpg",
       navie_active: "services",
       page_url: "/instants-snacking.html",
       page_title: "Instant snacking | bagels, hot-dogs, burgers, paninis, pizzas, croques monsieur…",
@@ -93,7 +93,7 @@ module.exports = {
       slider: true,
       hex: "#5FC5F0",
       title: "Instants fraîcheur",
-      desc: "Idéal pour vos Garden Party et vos évènements estivaux, nos animations frozen yogurt, glace à l’italienne, granité et sorbet moléculaire rafraichirons vos invités à coup sûr !",
+      desc: "Idéal pour vos évènements estivaux, nos animations frozen yogourts, glaces à l’italienne, granite et sorbets moléculaires rafraichirons vos invités à coup sûr !",
       hashtags: ["sorbets", "glaces", "frozenYaourt"],
       logo_url: "img/logo/logo_text_blue.png",
       main_url: "img/fraicheur_main_banner.jpg",
@@ -106,70 +106,70 @@ module.exports = {
       id: "events",
       hex: "#ffe500",
       title: "Votre évènement clé en main",
-      desc: "Que ce soit pour vos séminaires, vos soirée d’entreprises ou vos Garden Party, Instant-B s’occupe pour vous de la gestion globale de vos évènements en vous accompagnant sur les lieux, la restauration, le matériel et les performers.",
+      desc: "Instant-B s’occupe de la gestion globale de vos événements en vous accompagnant sur la recherche de lieux, la restauration, le matériel et les performers",
       types: [
         {
           id: "location",
-          name: "lieux",
+          name: "Lieux",
           icon_url: "img/icons/houses.svg",
           img_url: "img/event_location_main.jpg",
           prestas: {
-            label: "exemple de lieux",
+            label: "Exemples de lieux",
             list: ["péniche", "rooftop", "terrasse", "club"]
           },
-          desc: "grâce à ses nombreux partenaires, Instant-B est en mesure de vous proposer une multitude de lieux dans Paris et ses alentours"
+          desc: "Grâce à ses nombreux partenaires, Instant-B est en mesure de vous proposer une multitude de lieux dans Paris et ses alentours"
         },
         {
           id: "cater",
-          name: "catering",
+          name: "Catering",
           icon_url: "img/icons/cutlery.svg",
           img_url: "img/event_cater_main.jpg",
           prestas: {
-            label: "animations culinaires et traiteurs",
+            label: "Animations culinaires et traiteurs",
             list: ["animations culinaires", "buffet asiatique", "buffet terroir", "pièces traiteurs"]
           },
-          desc: "nos différentes animations culinaires et nos buffets traiteurs émerveilleront les papilles de vos convives"
+          desc: "Pour animer vos évènements, nos performers mettent à disposition leur talent pour rendre ce moment inoubliable"
         },
         {
           id: "performers",
-          name: "performers",
+          name: "Performers",
           icon_url: "img/icons/headphones.svg",
           img_url: "img/event_performers_main.jpg",
           prestas: {
-            label: "example de performers",
+            label: "Exemples de performers",
             list: ["DJs", "musiciens", "barman Flair", "magiciens"]
           },
-          desc: "nos performers mettent à disposition leurs talents pour rendre votre évènement inoubliable"
+          desc: "Pour animer vos évènements, nos performers mettent à disposition leur talent pour rendre ce moment inoubliable"
         },
         {
           id: "photos",
-          name: "photos et vidéos",
+          name: "Photos et vidéos",
           icon_url: "img/icons/photo-camera.svg",
           img_url: "img/event_photos_main.jpg",
           prestas: {
-            label: "exemple d’animations",
+            label: "Exemples d’animations",
             list: ["photographe", "reportage vidéo", "photobox", "polaroid"]
           },
           desc: "Pour immortaliser votre évènement, Instant-B vous propose de nombreuses animations"
         },
         {
           id: "activities",
-          name: "activités",
+          name: "Activités",
           icon_url: "img/icons/vr.svg",
           img_url: "img/event_activities_main.jpg",
           prestas: {
-            label: "pour anim",
+            label: "Exemples d'activités",
             list: ["Baby-foot", "Ping-Pong", "Karaoké", "Jeux vidéos"]
           },
-          desc: "pour divertir vos convives lors de votre évènement, Instant-B vous propose une multitude d’activités qui sauront les réjouir"
+          desc: "Pour divertir vos convives lors de votre évènement, Instant-B vous propose une multitude d’activités qui sauront les réjouir"
         },
         {
           id: "transports",
-          name: "transport",
+          name: "Transport",
           icon_url: "img/icons/van.svg",
           img_url: "img/event_transport_main.jpg",
           prestas: {
-            label: "type de véhicules",
+            label: "Type de véhicules",
             list: ["berline", "van", "mini-bus"]
           },
           desc: "instant-B a noué de nombreux partenariats avec des sociétés de transport afin de conduire vos invités sur le lieu de votre évènement"
@@ -199,7 +199,7 @@ module.exports = {
       logo_url: "img/logo/logo_text_yellow_mk.png",
       page_url: "/photos.html",
       page_title: "Instant-B | Photos",
-      page_description: "Découvrez notre gallerie de photos prises lors de nos évènements."
+      page_description: "Découvrez notre galerie de photos prises lors de nos évènements"
     }
   }
 };

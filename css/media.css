@@ -167,6 +167,9 @@
 }
 
 @media (max-width: 500px){
+	.instants-txt-title {
+		display: none;
+	}
 	.quote-banner-title {
 		display: none;
 	}
@@ -195,6 +198,8 @@
 
 	.instant-header {
 		margin-top: 0;
+		width: 100%;
+		white-space: nowrap;
 	}
 
 	.instant-main-splitter {
@@ -214,7 +219,11 @@
 	}
 
 	.instant-title {
-		font-size: 50px;
+		margin: 0;
+		width: 100%;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
 	}
 
 	.instant-splitter {

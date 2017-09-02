@@ -205,7 +205,7 @@ a:hover {
 }
 
 .marislider-wrap.x--pictures {
-  padding-bottom: 33%;
+  padding-bottom: 36%;
 }
 
 .landing-img-overlay {
@@ -1030,8 +1030,7 @@ button a,
   white-space: nowrap;
 }
 
-.instant-title h1 {
-}
+.instant-title h1 {white-space: nowrap;text-align: center;}
 
 .instant-splitter.x--short {
   max-width: 100px;
