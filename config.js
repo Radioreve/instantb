@@ -7,7 +7,7 @@ module.exports = {
       title: "Un traiteur pas comme les autres",
       //navie_opts: "revealed",
       navie_active: "landing",
-      page_url: "/index.html.njk",
+      page_url: "/index.html",
       page_title: "Instant-B | Animations entreprise, soirées, bars à thème et évènement",
       page_description: "Découvrez nos animations pour vos évènements d'entreprise : bar à smoothies, fontaine de chocolat, animation crêpes, bar à cocktails, food truck, buffets traiteurs, animations glaces… Votre évènement entreprise sur mesure : soirées, stands, séminaires, avec Instant-B."
     },

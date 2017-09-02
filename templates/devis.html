@@ -1,0 +1,59 @@
+{% extends "layout.html" %}
+
+{% block pagetitle %}{{ obj.quote.page_title }}{% endblock %}
+{% block pagedesc %}{{ obj.quote.page_description }}{% endblock %}
+{% block main_class %}{{ obj.quote.id }}{% endblock %}
+{% block navie_active %}{{ obj.quote.navie_active }}{% endblock %}
+{% block logo %} <div id="logo" src="{{ obj.quote.logo_url }}" target="/index.html"></div> {% endblock %}
+
+{% block content %}
+
+	<div class="quote-banner">
+		<div class="quote-banner-content">
+			<div class="quote-banner-title">
+				<h1>Votre devis en moins de 48 heures</h1>
+			</div>
+			<div class="quote-banner-body">
+				<h2>Pour toute demande de devis, veuillez remplir le formulaire ci-dessous.</h2>
+			</div>
+		</div>
+	</div>
+
+	<div class="divider40"></div>
+
+	<section mf opts="label half" subject="Nouvelle demande de devis">
+		<div title="Votre société">
+			<div id="social" label="Raison sociale" opts="text mandatory"></div>
+			<div id="address" label="Addresse (rue, code postal, ville)" opts="text"></div>
+		</div>
+		<div title="Interlocuteur">
+			<div id="firstname" label="Nom" opts="text mandatory"></div>
+			<div id="lastname" label="Prénom" opts="text"></div>
+			<div id="job" label="Fonction" opts="text"></div>
+			<div id="email" label="Email" opts="text email mandatory"></div>
+			<div id="landline" label="Téléphone fixe" opts="text phone"></div>
+			<div id="mobile" label="Téléphone portable" opts="text phone"></div>
+		</div>
+		<div title="Votre évènement">
+			<div id="type" label="Type d'évènement" opts="dropdown" values="Séminaire, Salon / Congrés, Soirée d'entreprise, Evènement interne, Autre"></div>
+			<div id="date" label="Date de l'évènement" opts="text"></div>
+			<div id="size" label="Nombre de participants" opts="text mandatory"></div>
+			<div id="location" label="Lieu de l'évènement" opts="text"></div>
+			<div id="duration" label="Durée de l'évènement" opts="text mandatory"></div>
+			<div id="comments" label="Commentaires" opts="textarea split"></div>
+			<div id="prestations" label="Prestation souhaitées" opts="checkboxes mandatory half"
+				values="Smoothie, Salade, Soupes & veloutés, Cafés gourmands, Crèpes & gauffres, Choco, Barbapapa, Bonbons, Popcorn, Champagne, Cocktails, Bière, Bagels, Paninis, Hot Dogs, Croque-monsieurs, Burgers,
+				Frozen yogurts, Granité, Sorbet moléculaire, Glace, Traiteur, Clef en main">
+			</div>
+		</div>
+	</section>
+
+	<div class="complement">
+		<div class="complement-title">
+			Si vous souhaitez des informations complémentaires, n'hésitez pas à nous contacter au 09.81.72.67.71
+		</div>
+	</div>
+
+	{% include "knowmore.html" %}
+
+{% endblock %}

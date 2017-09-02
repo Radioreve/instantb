@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block pagetitle %}{{ obj.photos.page_title }}{% endblock %}
+{% block pagedesc %}{{ obj.photos.page_description }}{% endblock %}
+{% block main_class %}{{ obj.photos.id }}{% endblock %}
+{% block navie_active %}{{ obj.photos.navie_active }}{% endblock %}
+{% block logo %} <div id="logo" src="{{ obj.photos.logo_url }}" target="/index.html"></div> {% endblock %}
+
+{% block content %}
+
+   <!-- Banner start -->
+   <section id="banner" class="banner none">
+		<div class="banner-overlay"></div>
+		<div class="banner-title">
+			<h1></h1>
+		</div>
+   </section>
+   <!-- Banner end -->
+
+	<section id="pinto" class="pinto">
+		<div id="mason">
+        {% for i in range(1, 37) -%}
+        <div>
+          <div class="masonlay"></div>
+          <img src="img/gallery/gallery_{{i}}.jpg">
+			  </div>
+        {% endfor -%}
+		</div>
+	</section>
+
+{% endblock %}
+
