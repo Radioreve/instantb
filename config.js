@@ -7,7 +7,7 @@ module.exports = {
       title: "Un traiteur pas comme les autres",
       //navie_opts: "revealed",
       navie_active: "landing",
-      page_url: "/index.html",
+      page_url: "/index.html.njk",
       page_title: "Instant-B | Animations entreprise, soirées, bars à thème et évènement",
       page_description: "Découvrez nos animations pour vos évènements d'entreprise : bar à smoothies, fontaine de chocolat, animation crêpes, bar à cocktails, food truck, buffets traiteurs, animations glaces… Votre évènement entreprise sur mesure : soirées, stands, séminaires, avec Instant-B."
     },
@@ -115,7 +115,7 @@ module.exports = {
           img_url: "img/event_location_main.jpg",
           prestas: {
             label: "Exemples de lieux",
-            list: ["péniche", "rooftop", "terrasse", "club"]
+            list: ["Péniche", "Rooftop", "Terrasse", "Club"]
           },
           desc: "Grâce à ses nombreux partenaires, Instant-B est en mesure de vous proposer une multitude de lieux dans Paris et ses alentours"
         },
@@ -126,7 +126,7 @@ module.exports = {
           img_url: "img/event_cater_main.jpg",
           prestas: {
             label: "Animations culinaires et traiteurs",
-            list: ["animations culinaires", "buffet asiatique", "buffet terroir", "pièces traiteurs"]
+            list: ["Animations culinaires", "Buffet asiatique", "Buffet terroir", "Pièces traiteurs"]
           },
           desc: "Pour animer vos évènements, nos performers mettent à disposition leur talent pour rendre ce moment inoubliable"
         },
@@ -137,7 +137,7 @@ module.exports = {
           img_url: "img/event_performers_main.jpg",
           prestas: {
             label: "Exemples de performers",
-            list: ["DJs", "musiciens", "barman Flair", "magiciens"]
+            list: ["DJs", "Musiciens", "Barman Flair", "Magiciens"]
           },
           desc: "Pour animer vos évènements, nos performers mettent à disposition leur talent pour rendre ce moment inoubliable"
         },
@@ -148,7 +148,7 @@ module.exports = {
           img_url: "img/event_photos_main.jpg",
           prestas: {
             label: "Exemples d’animations",
-            list: ["photographe", "reportage vidéo", "photobox", "polaroid"]
+            list: ["Photographe", "Reportage vidéo", "Photobox", "Polaroid"]
           },
           desc: "Pour immortaliser votre évènement, Instant-B vous propose de nombreuses animations"
         },
@@ -170,7 +170,7 @@ module.exports = {
           img_url: "img/event_transport_main.jpg",
           prestas: {
             label: "Type de véhicules",
-            list: ["berline", "van", "mini-bus"]
+            list: ["Berline", "Van", "Mini-bus"]
           },
           desc: "instant-B a noué de nombreux partenariats avec des sociétés de transport afin de conduire vos invités sur le lieu de votre évènement"
         }

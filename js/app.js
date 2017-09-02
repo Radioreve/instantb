@@ -25,7 +25,7 @@ $(document).ready(function () {
 });
 
 function stickNav() {
-  if ($(window).scrollTop() > 245) {
+  if ($(window).scrollTop() > 166) {
     $('.navie').addClass('x--sticky');
   } else {
     $('.navie').removeClass('x--sticky');
@@ -39,7 +39,6 @@ function showInstantText(link) {
 
 $(document).ready(function () {
   Emmy.on("marislider:show", function (data) {
-    console.log("Showing slider : " + data.link);
     showInstantText(data.link);
   });
 });

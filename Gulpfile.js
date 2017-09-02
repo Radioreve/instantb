@@ -3,19 +3,23 @@ var clearReq = require('clear-require');
 var nunjucks = require('gulp-nunjucks');
 var autoprefixer = require('autoprefixer');
 var postcss = require('gulp-postcss');
+var ext_replace = require("gulp-ext-replace");
+var append = require("gulp-append");
 
 gulp.task('compile-markup', function () {
   var config = require('./config');
-  gulp.src(['./templates/*.html', '!./templates/layout.html', '!./templates/knowmore.html', '!./templates/notfound.html'])
+  gulp.src(['./templates/*.html.njk', '!./templates/layout.html.njk', '!./templates/knowmore.html.njk', '!./templates/notfound.html.njk'])
     .pipe(nunjucks.compile(config))
+    .pipe(ext_replace('.html', '.html.njk'))
     .pipe(gulp.dest(process.cwd()));
 });
 
 gulp.task('compile-style', function () {
   var config = require('./config');
-  gulp.src(['./templates/*.css'])
+  gulp.src(['./templates/*.css.njk', '!./templates/colors.css.njk'])
     .pipe(nunjucks.compile(config))
-    .pipe(gulp.dest(process.cwd() + '/css'));
+    .pipe(ext_replace('.css', '.css.njk'))
+    .pipe(gulp.dest(process.cwd() + "/css"));
 });
 
 gulp.task('prefix-css', function () {
