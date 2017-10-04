@@ -4,4 +4,3 @@ RewriteEngine On
 RewriteBase /
 RewriteCond %{REQUEST_URI} !^/v[0-9]
 RewriteRule ^(.*)$ v2/$1 [L]
-

@@ -10,7 +10,7 @@
 	.quote-banner-title {
 }
 	.quote-banner-title h1 {
-	   
+
 	}
 	.quote-banner-body {
 		padding: 0 4px;
@@ -43,13 +43,14 @@
 }
 
 @media (max-width: 750px){
-	
+
 	.instant-title h1 {
 		font-size: 40px;
 		margin-top: 20px;
 	}
 	.video {
 		margin-top: 50px;
+    overflow: hidden;
 	}
 	.instants-icons {
 		flex-flow: column;
@@ -66,7 +67,7 @@
 	.instant-section {
 		margin: 0;
 	}
-	
+
 	.landing-section.x--instants .landing-text {
 	    font-size: 16px!important;
 	}
@@ -96,7 +97,7 @@
 		font-size: 14px;
 		line-height: 20px;
 	}
-	
+
 	.instant-header {
 		margin-top: 0;
 	}
@@ -104,7 +105,7 @@
 		position: static;
 		transform: none;
 	}
-	
+
 	.banner {
     height: 200px;
 }
@@ -154,8 +155,8 @@
 
 	.instant-main-splitter {
 		margin: 10px auto 100px;
-	} 
-	
+	}
+
 	.instant-details-quote {
 		margin-bottom: 40px;
 		margin-top: 40px;
@@ -167,8 +168,14 @@
 }
 
 @media (max-width: 500px){
+	.main-btn {
+		width: 230px;
+	}
+	.follow {
+		flex-flow: column;
+	}
 	.instants-txt-title {
-		display: none;
+
 	}
 	.quote-banner-title {
 		display: none;
@@ -229,7 +236,7 @@
 	.instant-splitter {
 		display: none;
 	}
-	
+
 	.testimon-row {
 		flex-flow: column;
 		height: auto;
@@ -248,4 +255,18 @@
 	.wave {
 		display: none;
 	}
-} 
+
+  .instant-icon-label {
+    margin-top: 40px;
+  }
+
+  .instant-icon {
+    width: auto;
+    height: 90px;
+    margin: 30px;
+  }
+
+  .instants-icons.x--top {
+    padding-top: 40px;
+  }
+}

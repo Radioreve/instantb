@@ -18,7 +18,7 @@ module.exports = {
       slider: true,
       hex: "#6cad2e",
       title: "Instants vitaminés",
-      desc: "De savoureux fruits et légumes frais transformés à la demande en smoothie, salade ou soupe et servis en live sur votre événement !",
+      desc: "De savoureux fruits et légumes frais transformés à la demande en smoothies, salades ou soupes et servis en live sur votre événement !",
       hashtags: ["smoothies", "salades", "soupes"],
       logo_url: "img/logo/logo_text_green_mk.png",
       main_url: "img/vita_main_banner.jpg",
@@ -125,10 +125,10 @@ module.exports = {
           icon_url: "img/icons/cutlery.svg",
           img_url: "img/event_cater_main.jpg",
           prestas: {
-            label: "Animations culinaires et traiteurs",
+            label: "Animations culinaires et buffets traiteurs",
             list: ["Animations culinaires", "Buffet asiatique", "Buffet terroir", "Pièces traiteurs"]
           },
-          desc: "Pour animer vos évènements, nos performers mettent à disposition leur talent pour rendre ce moment inoubliable"
+          desc: "Composez votre catering avec nos différents instants et nos buffets traiteurs"
         },
         {
           id: "performers",
@@ -150,7 +150,7 @@ module.exports = {
             label: "Exemples d’animations",
             list: ["Photographe", "Reportage vidéo", "Photobox", "Polaroid"]
           },
-          desc: "Pour immortaliser votre évènement, Instant-B vous propose de nombreuses animations"
+          desc: "Pour immortaliser votre évènement, Instant-B met à votre disposition de nombreuses animations :"
         },
         {
           id: "activities",
@@ -172,7 +172,7 @@ module.exports = {
             label: "Type de véhicules",
             list: ["Berline", "Van", "Mini-bus"]
           },
-          desc: "instant-B a noué de nombreux partenariats avec des sociétés de transport afin de conduire vos invités sur le lieu de votre évènement"
+          desc: "Instant-B a noué de nombreux partenariats avec des sociétés de transport afin de conduire vos invités sur le lieu de votre évènement"
         }
       ],
       logo_url: "img/logo/logo_text_yellow_mk.png",
@@ -200,6 +200,14 @@ module.exports = {
       page_url: "/photos.html",
       page_title: "Instant-B | Photos",
       page_description: "Découvrez notre galerie de photos prises lors de nos évènements"
+    },
+    survey: {
+      id: "survey", hex: "#ffe500",
+      logo_url: "img/logo/logo_text_yellow_mk.png",
+      navie_active: "landing",
+      page_url: "/survey.html",
+      page_title: "Instant-B | Questionnaire",
+      page_description: "Votre avis compte !"
     }
   }
 };

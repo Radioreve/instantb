@@ -109,6 +109,14 @@ a:hover {
   position: fixed;
 }
 
+.navie-sublist {
+  border: none!important;
+}
+
+.navie-item {
+  border: none!important;
+}
+
 .navie[active="landing"].x--sticky {
   position: fixed !important;
   top: -170px;
@@ -316,6 +324,7 @@ body.x--events .marislider {
   margin: 40px;
   width: 100px;
   height: 100px;
+  position: relative;
 }
 
 .instant-icon-img {
@@ -325,6 +334,7 @@ body.x--events .marislider {
   align-items: center;
   width: 100px;
   height: 100px;
+  position: relative;
 }
 
 .instant-icon-img img {
@@ -501,6 +511,10 @@ button:hover {
   margin-top: 100px;
 }
 
+.navie[active="landing"].x--responsive + * {
+  margin-top: 68px;
+}
+
 .navie[active="landing"]:not(.x--responsive) + * {
   margin-top: 236px;
 }
@@ -540,7 +554,7 @@ button a {
 .video {
   margin-top: 150px;
   flex-flow: column;
-  display: none;
+  overflow: hidden;
 }
 
 .video-title {
@@ -557,6 +571,21 @@ button a {
 
 .landing-section.x--testimons {
   position: relative;
+}
+
+.survey {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+}
+
+.x--survey > *:not(.survey) {
+  display: none;
+}
+
+.survey iframe {
+  width: 100%;
+  height:100%;
 }
 
 .testimon-row {
@@ -1769,6 +1798,49 @@ body.x--photos .instant-details-highlight {
 }
 
 .marislider-item.x--photos .landing-btn {
+	background: #ffe500
+}
+
+
+
+.navie-sublist .navie-item[nav-id="survey"] {
+	transition: none;
+}
+
+.navie-sublist .navie-item[nav-id="survey"]:hover {
+	background-color: #ffe500;
+}
+
+.navie-sublist .navie-item[nav-id="survey"]:hover span {
+	color: #fff;
+}
+
+body.x--survey .navie-underline {
+	background: #ffe500;
+}
+
+body.x--survey .banner {
+    background-image: url(../);
+}
+.x--survey .instant-title,
+body.x--survey .instant-details-quote {
+	color: #ffe500;
+}
+
+body.x--survey .instant-details-highlight {
+	font-weight: 500;
+	color: #ffe500;
+}
+
+.x--survey .instant-splitter {
+    background: #ffe500;
+}
+
+.x--survey .instants-tag {
+    background: #ffe500;
+}
+
+.marislider-item.x--survey .landing-btn {
 	background: #ffe500
 }
 

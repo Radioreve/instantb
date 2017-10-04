@@ -1,5 +1,5 @@
 <?php
-    
+
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
@@ -12,7 +12,7 @@
 
 
         $recipient = "contact@instant-b.fr";
-        // $recipient = "ljayame@gmail.com";
+        //$recipient = "ljayame@gmail.com";
         $subject = trim($_POST["subject"]);
         $firstname = strip_tags(trim($_POST["firstname"]));
         $lastname = strip_tags(trim($_POST["lastname"]));
@@ -38,6 +38,7 @@
         // Build the email headers.
         $email_headers = "From: $firstname . $lastname <$email>"."\n";
         $email_headers .='Reply-To: contact@instant-b.fr'."\n";
+        //$email_headers .='Reply-To: "ljayame@gmail.com"'."\n";
 
         $email_headers .='Content-Type: text/plain; charset="utf-8"'."\n";
         $email_headers .='Content-Transfer-Encoding: 8bit';
