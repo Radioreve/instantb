@@ -1,0 +1,175 @@
+
+{% extends "layout.html.njk" %}
+
+{% block pagetitle %}{{ obj.vita.page_title }}{% endblock %}
+{% block pagedesc %}{{ obj.vita.page_description }}{% endblock %}
+{% block main_class %}{{ obj.vita.id }}{% endblock %}
+{% block navie_active %}{{ obj.vita.navie_active }}{% endblock %}
+{% block logo %} <div id="logo" src="{{ obj.vita.logo_url }}" target="/index.html"></div> {% endblock %}
+
+{% block content %}
+
+	   <!-- Banner start -->
+	   <section id="banner" class="banner">
+			<div class="banner-overlay"></div>
+			<div class="banner-title">
+				<h1>Instants vitaminés</h1>
+			</div>
+	   </section>
+	   <!-- Banner end -->
+
+	   <!-- Drawings start -->
+	   <section id="drawings" class="drawings">
+	   	<div class="drawings-item x--1">
+	   		<div class="drawing-picture flce" style="background-image:url(img/illu_smoothies.jpg)"></div>
+	   		<p>Smoothies</p>
+	   	</div>
+	   	<div class="drawings-item x--2">
+	   		<div class="drawing-picture flce" style="background-image:url(img/illu_salades.jpg)"></div>
+			<p>Salades</p>
+	   	</div>
+	   	<div class="drawings-item x--3">
+	   		<div class="drawing-picture flce" style="background-image:url(img/illu_soupes.jpg)"></div>
+			<p>Soupes & veloutés</p>
+	   	</div>
+	   </section>
+	   <!-- Drawings end -->
+
+
+
+		<!-- Instant details (Smoothies) start -->
+		<div class="instant-section x--smoothies">
+			<div class="instant-header">
+				<div class="instant-splitter x--short"></div>
+				<div class="instant-title"><h1>Smoothies</h1></div>
+				<div class="instant-splitter"></div>
+			</div>
+			<div class="instant-body imt">
+				<div class="instant-body-img imt-picture"></div>
+				<div class="instant-body-content imt-content">
+					<div class="instant-details">
+						<div class="instant-details-title">
+							<h1>Le concept</h1>
+						</div>
+						<p>De délicieux cocktails de fruits préparés et mixés devant vos convives. Frais et onctueux, nos smoothies allient vitamines et plaisir en une recette.</p>
+					</div>
+					<div class="instant-details">
+						<div class="instant-details-title">
+							<h1>Vos options</h1>
+						</div>
+						<div class="instant-details-content">
+							<div class="instant-details-option">
+								<span class="bullet"></span>
+								<span class="text">Corbeille de fruits</span>
+							</div>
+							<div class="instant-details-option">
+								<span class="bullet"></span>
+								<span class="text">Brochette de fruits</span>
+							</div>
+						</div>
+					</div>
+					<div class="instant-details-quote">
+						<button>Demander un devis <a href="/devis.html"></a></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Instant details (Smoothies) end -->
+
+
+		<!-- Instant details (Salads) start -->
+		<div class="instant-section x--salads x--inverse">
+			<div class="instant-header">
+				<div class="instant-splitter"></div>
+				<div class="instant-title"><h1>Salades</h1></div>
+				<div class="instant-splitter x--short"></div>
+			</div>
+			<div class="instant-body imt">
+				<div class="instant-body-img imt-picture"></div>
+				<div class="instant-body-content imt-content">
+					<div class="instant-details">
+						<div class="instant-details-title">
+							<h1>Le concept</h1>
+						</div>
+						<div class="instant-details-content">
+							<p>Pour une restauration à la fois saine et équilibrée, nous vous proposons des salades sur mesure à confectionner à partir d’un large choix de garnitures : crudités, féculents, aromates, assaisonnements, poissons, viandes… </p>
+						</div>
+					</div>
+					<div class="instant-details">
+						<div class="instant-details-title">
+							<h1>Vos options</h1>
+						</div>
+						<div class="instant-details-content">
+							<div class="instant-details-option">
+								<span class="bullet"></span>
+								<span class="text">Corbeille de fruits</span>
+							</div>
+							<div class="instant-details-option">
+								<span class="bullet"></span>
+								<span class="text">Brochette de fruits</span>
+							</div>
+							<div class="instant-details-option">
+								<span class="bullet"></span>
+								<span class="text">Boissons (eau, soda, jus de fruit...)</span>
+							</div>
+						</div>
+					</div>
+					<div class="instant-details-quote">
+						<button>Demander un devis <a href="/devis.html"></a></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Instant details (Salads) end -->
+
+
+		<!-- Instant details (Soups) start -->
+		<div class="instant-section x--soups">
+			<div class="instant-header">
+				<div class="instant-splitter x--short"></div>
+				<div class="instant-title"><h1>Soupes & veloutés</h1></div>
+				<div class="instant-splitter"></div>
+			</div>
+			<div class="instant-body imt">
+				<div class="instant-body-img imt-picture"></div>
+				<div class="instant-body-content imt-content">
+					<div class="instant-details">
+						<div class="instant-details-title">
+							<h1>Le concept</h1>
+						</div>
+						<div class="instant-details-content">
+							<p>Appréciées été comme hiver, nos soupes chaudes et froides sont préparées et mijotées devant vos invités. Nous proposons un large choix de recettes composées de légumes sélectionnés pour leurs saveurs et leurs qualités nutritionnelles.</p>
+						</div>
+					</div>
+					<div class="instant-details">
+						<div class="instant-details-title">
+							<h1>Vos options</h1>
+						</div>
+						<div class="instant-details-content">
+							<div class="instant-details-option">
+								<span class="bullet"></span>
+								<span class="text">Corbeille de fruits</span>
+							</div>
+							<div class="instant-details-option">
+								<span class="bullet"></span>
+								<span class="text">Brochette de fruits</span>
+							</div>
+							<div class="instant-details-option">
+								<span class="bullet"></span>
+								<span class="text">Boissons (eau, soda, jus de fruit...)</span>
+							</div>
+						</div>
+					</div>
+					<div class="instant-details-quote">
+						<button>Demander un devis <a href="/devis.html"></a></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Instant details (Soups) end -->
+
+		{% include "knowmore.html.njk" %}
+
+
+{% endblock %}
+

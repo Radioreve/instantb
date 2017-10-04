@@ -1,0 +1,162 @@
+
+{% extends "layout.html.njk" %}
+
+{% block pagetitle %}{{ obj.child.page_title }}{% endblock %}
+{% block pagedesc %}{{ obj.child.page_description }}{% endblock %}
+{% block main_class %}{{ obj.child.id }}{% endblock %}
+{% block navie_active %}{{ obj.child.navie_active }}{% endblock %}
+{% block logo %} <div id="logo" src="{{ obj.child.logo_url }}" target="/index.html"></div> {% endblock %}
+
+{% block content %}
+
+	   <!-- Banner start -->
+	   <section id="banner" class="banner">
+			<div class="banner-overlay"></div>
+			<div class="banner-title">
+				<h1>Instants souvenirs d'enfance</h1>
+			</div>
+	   </section>
+	   <!-- Banner end -->
+
+	      <!-- Drawings start -->
+	      <section id="drawings" class="drawings">
+	      	<div class="drawings-item x--1">
+	      		<div class="drawing-picture flce" style="background-image:url(img/illu_barbapapa.jpg)"></div>
+	   		<p>Barbe à papa</p>
+	      	</div>
+	      	<div class="drawings-item x--2">
+	      		<div class="drawing-picture flce" style="background-image:url(img/illu_popcorn.jpg)"></div>
+	   		<p>Pop Corn</p>
+	      	</div>
+	      	<div class="drawings-item x--3">
+	      		<div class="drawing-picture flce" style="background-image:url(img/illu_bonbon.jpg)"></div>
+	   		<p>Bar à bonbons</p>
+	      	</div>
+	      </section>
+	      <!-- Drawings end -->
+
+
+
+	   	<!-- Instant details (Smoothies) start -->
+	   	<div class="instant-section x--barbapapa">
+	   		<div class="instant-header">
+	   			<div class="instant-splitter x--short"></div>
+	   			<div class="instant-title"><h1>Barbe à papa</h1></div>
+	   			<div class="instant-splitter"></div>
+	   		</div>
+	   		<div class="instant-body imt">
+	   			<div class="instant-body-img imt-picture"></div>
+	   			<div class="instant-body-content imt-content">
+	   				<div class="instant-details">
+	   					<div class="instant-details-title">
+	   						<h1>Le concept</h1>
+	   					</div>
+	   					<p>L’animation classique et indémodable pour créer une ambiance de fête foraine avec l’odeur alléchante des différents 	parfums proposés : chewing-gum, fraise, framboise, coca…
+	   					</p>
+	   				</div>
+	   				<div class="instant-details">
+	   					<div class="instant-details-title">
+	   						<h1>Vos options</h1>
+	   					</div>
+	   					<div class="instant-details-content">
+	   						<div class="instant-details-option">
+	   							<span class="bullet"></span>
+	   							<span class="text">Stèle</span>
+	   						</div>
+	   						<div class="instant-details-option">
+	   							<span class="bullet"></span>
+	   							<span class="text">Boissons (eau, soda, jus de fruit...)</span>
+	   						</div>
+	   					</div>
+	   				</div>
+	   				<div class="instant-details-quote">
+	   					<button>Demander un devis <a href="/devis.html"></a></button>
+	   				</div>
+	   			</div>
+	   		</div>
+	   	</div>
+	   	<!-- Instant details (Smoothies) end -->
+
+
+	   	<!-- Instant details (Salads) start -->
+	   	<div class="instant-section x--popcorn x--inverse">
+	   		<div class="instant-header">
+	   			<div class="instant-splitter"></div>
+	   			<div class="instant-title"><h1>Pop Corn</h1></div>
+	   			<div class="instant-splitter x--short"></div>
+	   		</div>
+	   		<div class="instant-body imt">
+	   			<div class="instant-body-img imt-picture"></div>
+	   			<div class="instant-body-content imt-content">
+	   				<div class="instant-details">
+	   					<div class="instant-details-title">
+	   						<h1>Le concept</h1>
+	   					</div>
+	   					<div class="instant-details-content">
+	   						<p>Envoutez et attirez vos hôtes avec l’odeur alléchante et le goût du maïs éclaté qui se propose soit sucré, soit salé. Une animation théâtralisée grâce à la décoration traditionnelle de nos machines et leurs larges vitres pour regarder les grains de maïs éclater.
+	   						</p>
+	   					</div>
+	   				</div>
+	   				<div class="instant-details">
+	   					<div class="instant-details-title">
+	   						<h1>Vos options</h1>
+	   					</div>
+	   					<div class="instant-details-content">
+	   						<div class="instant-details-option">
+	   							<span class="bullet"></span>
+	   							<span class="text">Stèle</span>
+	   						</div>
+	   					</div>
+	   				</div>
+	   				<div class="instant-details-quote">
+	   					<button>Demander un devis <a href="/devis.html"></a></button>
+	   				</div>
+	   			</div>
+	   		</div>
+	   	</div>
+	   	<!-- Instant details (Salads) end -->
+
+
+	   	<!-- Instant details (Soups) start -->
+	   	<div class="instant-section x--candy">
+	   		<div class="instant-header">
+	   			<div class="instant-splitter x--short"></div>
+	   			<div class="instant-title"><h1>Bar à bonbons</h1></div>
+	   			<div class="instant-splitter"></div>
+	   		</div>
+	   		<div class="instant-body imt">
+	   			<div class="instant-body-img imt-picture"></div>
+	   			<div class="instant-body-content imt-content">
+	   				<div class="instant-details">
+	   					<div class="instant-details-title">
+	   						<h1>Le concept</h1>
+	   					</div>
+	   					<div class="instant-details-content">
+	   						<p>Replongez vos invités en enfance avec notre large de choix de bonbons colorés et acidulés aux multiples saveurs : les traditionnels chamallows, crocodiles, fraises tagada…présentés dans des bonbonnières traditionnelles et servis en brochettes ou en ballotins.
+	   						</p>
+	   					</div>
+	   				</div>
+	   				<div class="instant-details">
+	   					<div class="instant-details-title">
+	   						<h1>Vos options</h1>
+	   					</div>
+	   					<div class="instant-details-content">
+	   						<div class="instant-details-option">
+	   							<span class="bullet"></span>
+	   							<span class="text">Boissons (eau, soda, jus de fruit...)</span>
+	   						</div>
+	   					</div>
+	   				</div>
+	   				<div class="instant-details-quote">
+	   					<button>Demander un devis <a href="/devis.html"></a></button>
+	   				</div>
+	   			</div>
+	   		</div>
+	   	</div>
+	   	<!-- Instant details (Soups) end -->
+
+		{% include "knowmore.html.njk" %}
+
+
+{% endblock %}
+

@@ -1,0 +1,13 @@
+{% extends "layout.html.njk" %}
+
+{% block pagetitle %}{{ obj.survey.page_title }}{% endblock %}
+{% block pagedesc %}{{ obj.survey.page_description }}{% endblock %}
+{% block main_class %}{{ obj.survey.id }}{% endblock %}
+
+{% block content %}
+
+<div class="survey">
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScOpWyKdCnRamYH3xYOivM1K8KrmnAP_IArNIDVO0uwjFARvw/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+</div>
+
+{% endblock %}}

@@ -1,0 +1,59 @@
+{% extends "layout.html.njk" %}
+
+{% block pagetitle %}{{ obj.events.page_title }}{% endblock %}
+{% block pagedesc %}{{ obj.events.page_description }}{% endblock %}
+{% block main_class %}{{ obj.events.id }}{% endblock %}
+{% block navie_active %}{{ obj.events.navie_active }}{% endblock %}
+{% block logo %}
+<div id="logo" src="{{ obj.events.logo_url }}" target="/index.html"></div> {% endblock %}
+
+{% block content %}
+
+<section id="banner" class="banner">
+  <div class="banner-overlay"></div>
+  <div class="banner-title">
+    <h1>{{obj.events.title}}</h1>
+  </div>
+</section>
+
+{% for i in range(0, 6) -%}
+<div class="instant-section x--{{obj.events.types[i].id}} {{'x--inverse' if i%2==1}}">
+  <div class="instant-header">
+    <div class="instant-splitter {{'x--short' if i%2==0}}"></div>
+    <div class="instant-title"><h1>{{obj.events.types[i].name}}</h1></div>
+    <div class="instant-splitter {{'x--short' if i%2==1}}"></div>
+  </div>
+  <div class="instant-body imt">
+    <div style="background-image:url({{obj.events.types[i].img_url}})" class="instant-body-img imt-picture"></div>
+    <div class="instant-body-content imt-content">
+      <div class="instant-details">
+        <div class="instant-details-title">
+          <h1>Le concept</h1>
+        </div>
+        <p>
+          {{obj.events.types[i].desc}}
+        </p>
+      </div>
+      <div class="instant-details">
+        <div class="instant-details-title">
+          <h1>{{obj.events.types[i].prestas.label}}</h1>
+        </div>
+        <div class="instant-details-content">
+          {% for presta in obj.events.types[i].prestas.list -%}
+          <div class="instant-details-option">
+            <span class="bullet"></span>
+            <span class="text">{{ presta }}</span>
+          </div>
+          {% endfor -%}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor -%}
+
+{% include "knowmore.html.njk" %}
+
+
+{% endblock %}
+

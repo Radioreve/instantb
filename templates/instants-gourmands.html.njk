@@ -1,0 +1,183 @@
+
+{% extends "layout.html.njk" %}
+
+{% block pagetitle %}{{ obj.yummy.page_title }}{% endblock %}
+{% block pagedesc %}{{ obj.yummy.page_description }}{% endblock %}
+{% block main_class %}{{ obj.yummy.id }}{% endblock %}
+{% block navie_active %}{{ obj.yummy.navie_active }}{% endblock %}
+{% block logo %} <div id="logo" src="{{ obj.yummy.logo_url }}" target="/index.html"></div> {% endblock %}
+
+{% block content %}
+
+	   <!-- Banner start -->
+	   <section id="banner" class="banner">
+			<div class="banner-overlay"></div>
+			<div class="banner-title">
+				<h1>Instants gourmands</h1>
+			</div>
+	   </section>
+	   <!-- Banner end -->
+
+	      <!-- Drawings start -->
+	      <section id="drawings" class="drawings">
+	      	<div class="drawings-item x--1">
+	   		<div class="drawing-picture flce" style="background-image:url(img/illu_crepes.jpg)">
+	   			<!-- <img src="img/illu_crepes.jpg" alt="Crèpes et gaufres"> -->
+	   		</div>
+	   		<p>Crèpes et gaufres</p>
+	      	</div>
+	      	<div class="drawings-item x--2">
+	      		<div class="drawing-picture flce" style="background-image:url(img/illu_cafe.jpg)">
+	      		</div>
+	      		<p>Cafés, Thés & Chocolats</p>
+	      	</div>
+	      	<div class="drawings-item x--3">
+	      		<div class="drawing-picture flce" style="background-image:url(img/illu_fontaine.jpg)">
+	      		</div>
+	      		<p>Fontaine de chocolat</p>
+	      	</div>
+	      </section>
+	      <!-- Drawings end -->
+
+
+
+	   	<!-- Instant details (Smoothies) start -->
+	   	<div class="instant-section x--waffles">
+	   		<div class="instant-header">
+	   			<div class="instant-splitter x--short"></div>
+	   			<div class="instant-title"><h1>Crèpes et gaufres</h1></div>
+	   			<div class="instant-splitter"></div>
+	   		</div>
+	   		<div class="instant-body imt">
+	   			<div class="instant-body-img imt-picture"></div>
+	   			<div class="instant-body-content imt-content">
+	   				<div class="instant-details">
+	   					<div class="instant-details-title">
+	   						<h1>Le concept</h1>
+	   					</div>
+	   					<p>De savoureuses crêpes et/ou gaufres préparées et servies devant vos convives avec un large choix de garnitures sucrées (confitures, fruits, sirop d’érable, Nutella…).  Une animation traditionnelle qui séduira vos invités en toute circonstance.</p>
+	   				</div>
+	   				<div class="instant-details">
+	   					<div class="instant-details-title">
+	   						<h1>Vos options</h1>
+	   					</div>
+	   					<div class="instant-details-content">
+	   						<div class="instant-details-option">
+	   							<span class="bullet"></span>
+	   							<span class="text">Corbeille de fruits</span>
+	   						</div>
+	   						<div class="instant-details-option">
+	   							<span class="bullet"></span>
+	   							<span class="text">Brochette de fruits</span>
+	   						</div>
+	   						<div class="instant-details-option">
+	   							<span class="bullet"></span>
+	   							<span class="text">Boissons (eau, soda, jus de fruit...)</span>
+	   						</div>
+	   					</div>
+	   				</div>
+	   				<div class="instant-details-quote">
+	   					<button>Demander un devis <a href="/devis.html"></a></button>
+	   				</div>
+	   			</div>
+	   		</div>
+	   	</div>
+	   	<!-- Instant details (Smoothies) end -->
+
+
+	   	<!-- Instant details (Salads) start -->
+	   	<div class="instant-section x--coffee x--inverse">
+	   		<div class="instant-header">
+	   			<div class="instant-splitter"></div>
+	   			<div class="instant-title"><h1>Cafés, Thés & Chocolats</h1></div>
+	   			<div class="instant-splitter x--short"></div>
+	   		</div>
+	   		<div class="instant-body imt">
+	   			<div class="instant-body-img imt-picture"></div>
+	   			<div class="instant-body-content imt-content">
+	   				<div class="instant-details">
+	   					<div class="instant-details-title">
+	   						<h1>Le concept</h1>
+	   					</div>
+	   					<div class="instant-details-content">
+	   						<p>Mieux que la machine à café, proposez à vos collaborateurs une dégustation de produits qualitatifs et raffinés sélectionnés pour leurs arômes.  Afin d’accompagner les thés et cafés, proposez également de délicieuses pâtisseries avec des recettes classiques et originales.</p>
+	   						<p class="exe">Ex: Café cappuccino, moka, frappé, latté, caramel, viennois...</p>
+	   						<p class="exe">Ex: Thés verts, Earl Grey, Thé Chine fumé, Tchaï...</p>
+	   					</div>
+	   				</div>
+	   				<div class="instant-details">
+	   					<div class="instant-details-title">
+	   						<h1>Vos options</h1>
+	   					</div>
+	   					<div class="instant-details-content">
+	   						<div class="instant-details-option">
+	   							<span class="bullet"></span>
+	   							<span class="text">Viennoiseries / pâtisseries</span>
+	   						</div>
+	   						<div class="instant-details-option">
+	   							<span class="bullet"></span>
+	   							<span class="text">Chocolat chaud à l'ancienne</span>
+	   						</div>
+	   						<div class="instant-details-option">
+	   							<span class="bullet"></span>
+	   							<span class="text">Boissons (eau, soda, jus de fruit...)</span>
+	   						</div>
+	   					</div>
+	   				</div>
+	   				<div class="instant-details-quote">
+	   					<button>Demander un devis <a href="/devis.html"></a></button>
+	   				</div>
+	   			</div>
+	   		</div>
+	   	</div>
+	   	<!-- Instant details (Salads) end -->
+
+
+	   	<!-- Instant details (Soups) start -->
+	   	<div class="instant-section x--choco">
+	   		<div class="instant-header">
+	   			<div class="instant-splitter x--short"></div>
+	   			<div class="instant-title"><h1>Fontaine de chocolat</h1></div>
+	   			<div class="instant-splitter"></div>
+	   		</div>
+	   		<div class="instant-body imt">
+	   			<div class="instant-body-img imt-picture"></div>
+	   			<div class="instant-body-content imt-content">
+	   				<div class="instant-details">
+	   					<div class="instant-details-title">
+	   						<h1>Le concept</h1>
+	   					</div>
+	   					<div class="instant-details-content">
+	   						<p>Une cascade de chocolat fondu pour napper des morceaux de fruits et chamalows.
+	   						La théâtralisation et l’odeur envoûtante de notre fontaine de chocolat émerveilleront vos convives !</p>
+	   					</div>
+	   				</div>
+	   				<div class="instant-details">
+	   					<div class="instant-details-title">
+	   						<h1>Vos options</h1>
+	   					</div>
+	   					<div class="instant-details-content">
+	   						<div class="instant-details-option">
+	   							<span class="bullet"></span>
+	   							<span class="text">Stèle</span>
+	   						</div>
+	   						<div class="instant-details-option">
+	   							<span class="bullet"></span>
+	   							<span class="text">Boissons (eau, soda, jus de fruit...)</span>
+	   						</div>
+	   					</div>
+	   				</div>
+	   				<div class="instant-details-quote">
+	   					<button>Demander un devis <a href="/devis.html"></a></button>
+	   				</div>
+	   			</div>
+	   		</div>
+	   	</div>
+	   	<!-- Instant details (Soups) end -->
+
+		{% include "knowmore.html.njk" %}
+
+
+
+{% endblock %}
+
