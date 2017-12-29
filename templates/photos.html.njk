@@ -4,7 +4,8 @@
 {% block pagedesc %}{{ obj.photos.page_description }}{% endblock %}
 {% block main_class %}{{ obj.photos.id }}{% endblock %}
 {% block navie_active %}{{ obj.photos.navie_active }}{% endblock %}
-{% block logo %} <div id="logo" src="{{ obj.photos.logo_url }}" target="/index.html"></div> {% endblock %}
+{% block logosrc %}{{ obj.photos.logo_url }}{% endblock %}
+{% block canon %}{{obj.photos.canonical_url}}{% endblock %}
 
 {% block content %}
 

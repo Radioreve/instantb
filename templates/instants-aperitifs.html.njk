@@ -5,7 +5,8 @@
 {% block pagedesc %}{{ obj.apero.page_description }}{% endblock %}
 {% block main_class %}{{ obj.apero.id }}{% endblock %}
 {% block navie_active %}{{ obj.apero.navie_active }}{% endblock %}
-{% block logo %} <div id="logo" src="{{ obj.apero.logo_url }}" target="/index.html"></div> {% endblock %}
+{% block logosrc %}{{ obj.apero.logo_url }}{% endblock %}
+{% block canon %}{{obj.apero.canonical_url}}{% endblock %}
 
 {% block content %}
 

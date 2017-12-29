@@ -1,13 +1,18 @@
+const rootDomain = "https://www.instant-b.fr";
+
 module.exports = {
   obj: {
+    root_url: "/",
     landing: {
+      hello: "good",
       id: "landing",
       hex: "#ffe500",
       logo_url: "img/logo/logo_icon_black.jpg",
       title: "Un traiteur pas comme les autres",
       //navie_opts: "revealed",
       navie_active: "landing",
-      page_url: "/index.html.njk",
+      canonical_url: "https://www.instant-b.fr",
+      page_url: rootDomain + "/",
       page_title: "Instant-B | Animations entreprise, soirées, bars à thème et évènement",
       page_description: "Découvrez nos animations pour vos évènements d'entreprise : bar à smoothies, fontaine de chocolat, animation crêpes, bar à cocktails, food truck, buffets traiteurs, animations glaces… Votre évènement entreprise sur mesure : soirées, stands, séminaires, avec Instant-B."
     },
@@ -23,6 +28,7 @@ module.exports = {
       logo_url: "img/logo/logo_text_green_mk.png",
       main_url: "img/vita_main_banner.jpg",
       navie_active: "services",
+      canonical_url: rootDomain + "/instants-vitamines.html",
       page_url: "/instants-vitamines.html",
       page_title: "Instant vitaminé | Animation smoothies, bar à salades, bar à soupes",
       page_description: "Des fruits et légumes frais mixés et préparés devant vos convives, nos animations smoothies, salades et soupes sauront séduire vos invités !"
@@ -38,6 +44,7 @@ module.exports = {
       logo_url: "img/logo/logo_text_orange_mk.png",
       main_url: "img/gourmand_main_banner.jpg",
       navie_active: "services",
+      canonical_url: rootDomain + "/instants-gourmands.html",
       page_url: "/instants-gourmands.html",
       page_title: "Instant gourmand | Fontaîne de chocolat, animations crèpes, gaufres, cafés et thés gourmands",
       page_description: "Notre fontaine de chocolat, nos animations crêpes ou gaufres ainsi que notre bar à cafés, thés et chocolats gourmands émerveilleront les papilles de vos invités."
@@ -53,6 +60,7 @@ module.exports = {
       logo_url: "img/logo/logo_text_pink_mk.png",
       main_url: "img/enfance_main_banner.jpg",
       navie_active: "services",
+      canonical_url: rootDomain + "/instants-souvenirs.html",
       page_url: "/instants-souvenirs.html",
       page_title: "Instant souvenir d'enfance | Animation barbe à papa, pop-corn, candy bar",
       page_description: "Nos animations barbe à papa, pop-corn ou notre candy bar renverront vos invités quelques années en arrière."
@@ -68,6 +76,7 @@ module.exports = {
       logo_url: "img/logo/logo_text_red_mk.png",
       main_url: "img/apero_main_banner.jpg",
       navie_active: "services",
+      canonical_url: rootDomain + "/instants-aperitifs.html",
       page_url: "/instants-aperitifs.html",
       page_title: "Instant apéritif | Bar à cocktails, champagne, vin, bière",
       page_description: "Notre bar à cocktail, notre bar à vins et notre bar à bière sont idéals pour tous se retrouver lors d’un moment convivial. Nos barmen sauront surprendre vos invités avec leurs différentes recettes et mise en scène (flair) !"
@@ -83,6 +92,7 @@ module.exports = {
       logo_url: "img/logo/logo_text_brown_mk.png",
       main_url: "img/snacking_main_banner.jpg",
       navie_active: "services",
+      canonical_url: rootDomain + "/instants-snacking.html",
       page_url: "/instants-snacking.html",
       page_title: "Instant snacking | bagels, hot-dogs, burgers, paninis, pizzas, croques monsieur…",
       page_description: "Découvrez tous nos concepts Snacking de Food truck en entreprise à consommer à chaque instant : bagels, hot-dogs, burgers, paninis, pizzas, croques monsieur… Tous nos produits sont réalisés sur place à la demande de vos invités !"
@@ -98,6 +108,7 @@ module.exports = {
       logo_url: "img/logo/logo_text_blue.png",
       main_url: "img/fraicheur_main_banner.jpg",
       navie_active: "services",
+      canonical_url: rootDomain + "/instants-fraicheur.html",
       page_url: "/instants-fraicheur.html",
       page_title: "Instant fraîcheur | Animation frozen yogurt, glace, sorbet moléculaire",
       page_description: "L’instant fraicheur c’est une multitude d’animations pour rafraichir vos convives : glaces à l’italienne, frozen yogurt, granités, sorbets moléculaires."
@@ -178,6 +189,7 @@ module.exports = {
       logo_url: "img/logo/logo_text_yellow_mk.png",
       main_url: "img/events.jpg",
       navie_active: "events",
+      canonical_url: rootDomain + "/instants-evenements.html",
       page_url: "/evenements.html",
       page_title: "Votre évènement clé en main | Salle, lieu, matériel, DJ, photographe, magicien…",
       page_description: "Instant-B vous accompagne sur la gestion clé en main de vos événements : lieux, restauration, performers, matériels"
@@ -188,6 +200,7 @@ module.exports = {
       logo_url: "img/logo/logo_text_yellow_mk.png",
       main_url: "img/vita_main_banner.jpg",
       navie_active: "quote",
+      canonical_url: rootDomain + "/devis.html",
       page_url: "/devis.html",
       page_title: "Instant-B | Devis",
       page_description: "Votre devis pour tout le catalogue de nos prestations en moins de 48 heures !"
@@ -197,6 +210,7 @@ module.exports = {
       hex: "#ffe500",
       navie_active: "photos",
       logo_url: "img/logo/logo_text_yellow_mk.png",
+      canonical_url: rootDomain + "/photos.html",
       page_url: "/photos.html",
       page_title: "Instant-B | Photos",
       page_description: "Découvrez notre galerie de photos prises lors de nos évènements"
@@ -205,6 +219,7 @@ module.exports = {
       id: "survey", hex: "#ffe500",
       logo_url: "img/logo/logo_text_yellow_mk.png",
       navie_active: "landing",
+      canonical_url: rootDomain + "/survey.html",
       page_url: "/survey.html",
       page_title: "Instant-B | Questionnaire",
       page_description: "Votre avis compte !"

@@ -1373,6 +1373,49 @@ button a,
 
 
 
+.navie-sublist .navie-item[nav-id=""] {
+	transition: none;
+}
+
+.navie-sublist .navie-item[nav-id=""]:hover {
+	background-color: ;
+}
+
+.navie-sublist .navie-item[nav-id=""]:hover span {
+	color: #fff;
+}
+
+body.x-- .navie-underline {
+	background: ;
+}
+
+body.x-- .banner {
+    background-image: url(../);
+}
+.x-- .instant-title,
+body.x-- .instant-details-quote {
+	color: ;
+}
+
+body.x-- .instant-details-highlight {
+	font-weight: 500;
+	color: ;
+}
+
+.x-- .instant-splitter {
+    background: ;
+}
+
+.x-- .instants-tag {
+    background: ;
+}
+
+.marislider-item.x-- .landing-btn {
+	background: 
+}
+
+
+
 .navie-sublist .navie-item[nav-id="landing"] {
 	transition: none;
 }
@@ -1842,6 +1885,49 @@ body.x--survey .instant-details-highlight {
 
 .marislider-item.x--survey .landing-btn {
 	background: #ffe500
+}
+
+
+
+.navie-sublist .navie-item[nav-id=""] {
+	transition: none;
+}
+
+.navie-sublist .navie-item[nav-id=""]:hover {
+	background-color: ;
+}
+
+.navie-sublist .navie-item[nav-id=""]:hover span {
+	color: #fff;
+}
+
+body.x-- .navie-underline {
+	background: ;
+}
+
+body.x-- .banner {
+    background-image: url(../);
+}
+.x-- .instant-title,
+body.x-- .instant-details-quote {
+	color: ;
+}
+
+body.x-- .instant-details-highlight {
+	font-weight: 500;
+	color: ;
+}
+
+.x-- .instant-splitter {
+    background: ;
+}
+
+.x-- .instants-tag {
+    background: ;
+}
+
+.marislider-item.x-- .landing-btn {
+	background: 
 }
 
 

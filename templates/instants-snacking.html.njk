@@ -5,7 +5,8 @@
 {% block pagedesc %}{{ obj.snack.page_description }}{% endblock %}
 {% block main_class %}{{ obj.snack.id }}{% endblock %}
 {% block navie_active %}{{ obj.snack.navie_active }}{% endblock %}
-{% block logo %} <div id="logo" src="{{ obj.snack.logo_url }}" target="/index.html"></div> {% endblock %}
+{% block logosrc %}{{ obj.snack.logo_url }}{% endblock %}
+{% block canon %}{{obj.snack.canonical_url}}{% endblock %}
 
 {% block content %}
 

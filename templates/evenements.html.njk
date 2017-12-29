@@ -4,8 +4,8 @@
 {% block pagedesc %}{{ obj.events.page_description }}{% endblock %}
 {% block main_class %}{{ obj.events.id }}{% endblock %}
 {% block navie_active %}{{ obj.events.navie_active }}{% endblock %}
-{% block logo %}
-<div id="logo" src="{{ obj.events.logo_url }}" target="/index.html"></div> {% endblock %}
+{% block logosrc %}{{ obj.events.logo_url }}{% endblock %}
+{% block canon %}{{obj.landing.canonical_url}}{% endblock %}
 
 {% block content %}
 

@@ -6,7 +6,8 @@
 {% block main_class %}{{ obj.landing.id }}{% endblock %}
 {% block navie_active %}{{ obj.landing.navie_active }}{% endblock %}
 {% block navie_opts %}{{ obj.landing.navie_opts }}{% endblock %}
-{% block logo %} <div id="logo" src="{{ obj.landing.logo_url }}" noop target="/index.html"></div> {% endblock %}
+{% block logosrc %}{{ obj.landing.logo_url }}{% endblock %}
+{% block canon %}{{obj.landing.canonical_url}}{% endblock %}
 {% block title %} <div id="title" label="{{ obj.landing.title }}"></div> {% endblock %}
 
 {% block content %}
@@ -16,7 +17,7 @@
     <div class="landing-img-overlay"></div>
     <section class="marislider" centered autoslide waves>
       {% for instant_id, instant in obj -%}
-      {% if instant.slider -%}<div data-src="{{instant.main_url}}"></div>{% endif %}
+      {% if instant.slider -%}<div data-{{instant.main_url}}></div>{% endif %}
       {% endfor -%}
     </section>
 

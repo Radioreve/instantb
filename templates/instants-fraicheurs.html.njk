@@ -5,7 +5,8 @@
 {% block pagedesc %}{{ obj.fresh.page_description }}{% endblock %}
 {% block main_class %}{{ obj.fresh.id }}{% endblock %}
 {% block navie_active %}{{ obj.fresh.navie_active }}{% endblock %}
-{% block logo %} <div id="logo" src="{{ obj.fresh.logo_url }}" target="/index.html"></div> {% endblock %}
+{% block logosrc %}{{ obj.fresh.logo_url }}{% endblock %}
+{% block canon %}{{obj.fresh.canonical_url}}{% endblock %}
 
 {% block content %}
 

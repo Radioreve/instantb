@@ -5,7 +5,8 @@
 {% block pagedesc %}{{ obj.yummy.page_description }}{% endblock %}
 {% block main_class %}{{ obj.yummy.id }}{% endblock %}
 {% block navie_active %}{{ obj.yummy.navie_active }}{% endblock %}
-{% block logo %} <div id="logo" src="{{ obj.yummy.logo_url }}" target="/index.html"></div> {% endblock %}
+{% block logosrc %}{{ obj.yummy.logo_url }}{% endblock %}
+{% block canon %}{{obj.yummy.canonical_url}}{% endblock %}
 
 {% block content %}
 

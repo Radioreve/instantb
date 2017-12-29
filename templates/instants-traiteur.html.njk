@@ -5,7 +5,8 @@
 {% block pagedesc %}{{ obj.cater.page_description }}{% endblock %}
 {% block main_class %}{{ obj.cater.id }}{% endblock %}
 {% block navie_active %}{{ obj.cater.navie_active }}{% endblock %}
-{% block logo %} <div id="logo" src="{{ obj.cater.logo_url }}" target="/index.html"></div> {% endblock %}
+{% block logosrc %}{{ obj.cater.logo_url }}{% endblock %}
+{% block canon %}{{obj.cater.canonical_url}}{% endblock %}
 
 {% block content %}
 
