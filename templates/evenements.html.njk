@@ -20,7 +20,7 @@
 <div class="instant-section x--{{obj.events.types[i].id}} {{'x--inverse' if i%2==1}}">
   <div class="instant-header">
     <div class="instant-splitter {{'x--short' if i%2==0}}"></div>
-    <div class="instant-title"><h1>{{obj.events.types[i].name}}</h1></div>
+    <div class="instant-title"><h2>{{obj.events.types[i].name}}</h2></div>
     <div class="instant-splitter {{'x--short' if i%2==1}}"></div>
   </div>
   <div class="instant-body imt">
@@ -28,7 +28,7 @@
     <div class="instant-body-content imt-content">
       <div class="instant-details">
         <div class="instant-details-title">
-          <h1>Le concept</h1>
+          <h2>Le concept</h2>
         </div>
         <p>
           {{obj.events.types[i].desc}}
@@ -36,7 +36,7 @@
       </div>
       <div class="instant-details">
         <div class="instant-details-title">
-          <h1>{{obj.events.types[i].prestas.label}}</h1>
+          <h2>{{obj.events.types[i].prestas.label}}</h2>
         </div>
         <div class="instant-details-content">
           {% for presta in obj.events.types[i].prestas.list -%}

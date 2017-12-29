@@ -17,10 +17,9 @@
     <div class="landing-img-overlay"></div>
     <section class="marislider" centered autoslide waves>
       {% for instant_id, instant in obj -%}
-      {% if instant.slider -%}<div data-{{instant.main_url}}></div>{% endif %}
+        {% if instant.slider -%}<div data-src="{{instant.main_url}}"></div>{% endif %}
       {% endfor -%}
     </section>
-
 	</section>
 	<!-- Instants img slider end -->
 
@@ -31,7 +30,7 @@
         <div class="instants-txt x--{{instant.id}} {{'x--active' if instant.slider_start}}" data-link="{{instant.index}}">
           <div class="instant-header">
             <div class="instant-splitter"></div>
-            <div class="instant-title"><h1>{{instant.title | capitalize}}</h1></div>
+            <div class="instant-title"><h2>{{instant.title | capitalize}}</h2></div>
             <div class="instant-splitter"></div>
           </div>
           <div class="instants-txt-title"><p>{{instant.desc}}</p></div>
@@ -48,7 +47,7 @@
 
 
   <div class="video flce">
-    <div class="video-title">Evénement clé en main</div>
+    <div class="video-title"><h1>Evénement clé en main</h1></div>
     <iframe src="https://player.vimeo.com/video/232215065" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
   </div>
 
@@ -57,7 +56,7 @@
   <section id="allin" class="landing-section x--events x--centered">
     <div class="instant-header">
       <div class="instant-splitter"></div>
-      <div class="instant-title"><h1>{{obj.events.title}}</h1></div>
+      <div class="instant-title"><h2>{{obj.events.title}}</h2></div>
       <div class="instant-splitter"></div>
     </div>
     <div class="instants-txt-title"><p>{{obj.events.desc}}</p></div>
@@ -93,7 +92,7 @@
 		<div class="diag-splitter x--top"></div>
 		<div class="diag-splitter x--bottom"></div>
 		<div class="landing-section__h1">
-			<h1>Ils font appel à nous</h1>
+			<h2>Ils font appel à nous</h2>
 		</div>
 		<div class="landing-section__splitter"></div>
 		<div class="testimons-brands">
