@@ -10,5 +10,5 @@ RewriteCond %{HTTPS} !=on
 RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
 
 RewriteCond %{REQUEST_URI} !^/v[0-9]
-RewriteRule ^(.*)$ v2/$1 [L]
+RewriteRule ^(.*)$ v3/$1 [L]
 
