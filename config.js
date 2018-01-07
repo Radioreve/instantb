@@ -26,7 +26,7 @@ module.exports = {
       desc: "De savoureux fruits et légumes frais transformés à la demande en smoothies, salades ou soupes et servis en live sur votre événement !",
       hashtags: ["smoothies", "salades", "soupes"],
       logo_url: "img/logo/logo-instant-b-text-green-mk.png",
-      main_url: "img/instant-vitaminé-principale-banner.jpg",
+      main_url: "img/instant-vitamine-principale-banner.jpg",
       navie_active: "services",
       canonical_url: rootDomain + "/instants-vitamines.html",
       page_url: "/instants-vitamines.html",
@@ -74,7 +74,7 @@ module.exports = {
       desc: "Notre bar à cocktails et nos sélections de vins, champagnes et bières feront le plaisir de tous et rendront vos réceptions festives et inoubliables !",
       hashtags: ["cocktails", "vins", "champagne", "bières"],
       logo_url: "img/logo/logo-instant-b-text-red-mk.png",
-      main_url: "img/instant-apéritif-principale-banner.jpg",
+      main_url: "img/instant-aperitif-principale-banner.jpg",
       navie_active: "services",
       canonical_url: rootDomain + "/instants-aperitifs.html",
       page_url: "/instants-aperitifs.html",
@@ -123,7 +123,7 @@ module.exports = {
           id: "location",
           name: "Lieux",
           icon_url: "img/icons/houses.svg",
-          img_url: "img/évènement-location-principale.jpg",
+          img_url: "img/evenement-location-principale.jpg",
           prestas: {
             label: "Exemples de lieux",
             list: ["Péniche", "Rooftop", "Terrasse", "Club"]
@@ -134,7 +134,7 @@ module.exports = {
           id: "cater",
           name: "Catering",
           icon_url: "img/icons/cutlery.svg",
-          img_url: "img/évènement-traiteur-principale.jpg",
+          img_url: "img/evenement-traiteur-principale.jpg",
           prestas: {
             label: "Animations culinaires et buffets traiteurs",
             list: ["Animations culinaires", "Buffet asiatique", "Buffet terroir", "Pièces traiteurs"]
@@ -145,7 +145,7 @@ module.exports = {
           id: "performers",
           name: "Performers",
           icon_url: "img/icons/headphones.svg",
-          img_url: "img/évènement-performers-principale.jpg",
+          img_url: "img/evenement-performers-principale.jpg",
           prestas: {
             label: "Exemples de performers",
             list: ["DJs", "Musiciens", "Barman Flair", "Magiciens"]
@@ -156,7 +156,7 @@ module.exports = {
           id: "photos",
           name: "Photos et vidéos",
           icon_url: "img/icons/photo-camera.svg",
-          img_url: "img/évènement-photos-principale.jpg",
+          img_url: "img/evenement-photos-principale.jpg",
           prestas: {
             label: "Exemples d’animations",
             list: ["Photographe", "Reportage vidéo", "Photobox", "Polaroid"]
@@ -167,7 +167,7 @@ module.exports = {
           id: "activities",
           name: "Activités",
           icon_url: "img/icons/vr.svg",
-          img_url: "img/évènement-activities-principale.jpg",
+          img_url: "img/evenement-activities-principale.jpg",
           prestas: {
             label: "Exemples d'activités",
             list: ["Baby-foot", "Ping-Pong", "Karaoké", "Jeux vidéos"]
@@ -178,7 +178,7 @@ module.exports = {
           id: "transports",
           name: "Transport",
           icon_url: "img/icons/van.svg",
-          img_url: "img/évènement-transport-principale.jpg",
+          img_url: "img/evenement-transport-principale.jpg",
           prestas: {
             label: "Type de véhicules",
             list: ["Berline", "Van", "Mini-bus"]
@@ -187,7 +187,7 @@ module.exports = {
         }
       ],
       logo_url: "img/logo/logo-instant-b-text-yellow-mk.png",
-      main_url: "img/évènements.jpg",
+      main_url: "img/evenements.jpg",
       navie_active: "events",
       canonical_url: rootDomain + "/instants-evenements.html",
       page_url: "/evenements.html",
@@ -198,7 +198,7 @@ module.exports = {
       id: "quote",
       hex: "#ffe500",
       logo_url: "img/logo/logo-instant-b-text-yellow-mk.png",
-      main_url: "img/instant-vitaminé-principale-banner.jpg",
+      main_url: "img/instant-vitamine-principale-banner.jpg",
       navie_active: "quote",
       canonical_url: rootDomain + "/devis.html",
       page_url: "/devis.html",

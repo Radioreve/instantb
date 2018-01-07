@@ -1180,15 +1180,15 @@ button a,
 }
 
 .instant-section.x--smoothies .instant-body-img {
-  background-image: url(../img/instant-vitaminé-smoothie-3.jpg);
+  background-image: url(../img/instant-vitamine-smoothie-3.jpg);
 }
 
 .instant-section.x--salads .instant-body-img {
-  background-image: url(../img/instant-vitaminé-salades-2.jpg);
+  background-image: url(../img/instant-vitamine-salades-2.jpg);
 }
 
 .instant-section.x--soups .instant-body-img {
-  background-image: url(../img/instant-vitaminé-soupes.jpg);
+  background-image: url(../img/instant-vitamine-soupes.jpg);
 }
 
 .instant-section.x--waffles .instant-body-img {
@@ -1216,15 +1216,15 @@ button a,
 }
 
 .instant-section.x--cocktailbar .instant-body-img {
-  background-image: url(../img/instant-apéritif-cocktail-3.jpg);
+  background-image: url(../img/instant-aperitif-cocktail-3.jpg);
 }
 
 .instant-section.x--champagne .instant-body-img {
-  background-image: url(../img/instant-apéritif-champagne-2.jpg);
+  background-image: url(../img/instant-aperitif-champagne-2.jpg);
 }
 
 .instant-section.x--beer .instant-body-img {
-  background-image: url(../img/instant-apéritif-bières.jpg);
+  background-image: url(../img/instant-aperitif-bieres.jpg);
 }
 
 .instant-section.x--bagel .instant-body-img {
@@ -1476,7 +1476,7 @@ body.x--vita .navie-underline {
 }
 
 body.x--vita .banner {
-    background-image: url(../img/instant-vitaminé-principale-banner.jpg);
+    background-image: url(../img/instant-vitamine-principale-banner.jpg);
 }
 .x--vita .instant-title,
 body.x--vita .instant-details-quote {
@@ -1605,7 +1605,7 @@ body.x--apero .navie-underline {
 }
 
 body.x--apero .banner {
-    background-image: url(../img/instant-apéritif-principale-banner.jpg);
+    background-image: url(../img/instant-aperitif-principale-banner.jpg);
 }
 .x--apero .instant-title,
 body.x--apero .instant-details-quote {
@@ -1734,7 +1734,7 @@ body.x--events .navie-underline {
 }
 
 body.x--events .banner {
-    background-image: url(../img/évènements.jpg);
+    background-image: url(../img/evenements.jpg);
 }
 .x--events .instant-title,
 body.x--events .instant-details-quote {
@@ -1777,7 +1777,7 @@ body.x--quote .navie-underline {
 }
 
 body.x--quote .banner {
-    background-image: url(../img/instant-vitaminé-principale-banner.jpg);
+    background-image: url(../img/instant-vitamine-principale-banner.jpg);
 }
 .x--quote .instant-title,
 body.x--quote .instant-details-quote {
