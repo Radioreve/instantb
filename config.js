@@ -7,7 +7,7 @@ module.exports = {
       hello: "good",
       id: "landing",
       hex: "#ffe500",
-      logo_url: "img/logo/logo_icon_black.jpg",
+      logo_url: "img/logo/logo-instant-b-icon-black.jpg",
       title: "Un traiteur pas comme les autres",
       //navie_opts: "revealed",
       navie_active: "landing",
@@ -25,8 +25,8 @@ module.exports = {
       title: "Instants vitaminés",
       desc: "De savoureux fruits et légumes frais transformés à la demande en smoothies, salades ou soupes et servis en live sur votre événement !",
       hashtags: ["smoothies", "salades", "soupes"],
-      logo_url: "img/logo/logo_text_green_mk.png",
-      main_url: "img/vita_main_banner.jpg",
+      logo_url: "img/logo/logo-instant-b-text-green-mk.png",
+      main_url: "img/instant-vitaminé-principale-banner.jpg",
       navie_active: "services",
       canonical_url: rootDomain + "/instants-vitamines.html",
       page_url: "/instants-vitamines.html",
@@ -41,8 +41,8 @@ module.exports = {
       title: "Instants gourmands",
       desc: "Nos fontaines de chocolat et nos animations crêpes, gaufres et cafés gourmands vous feront oublier que la gourmandise est un vilain défaut !",
       hashtags: ["crêpes", "fontaîneChoco", "caféGourmand"],
-      logo_url: "img/logo/logo_text_orange_mk.png",
-      main_url: "img/gourmand_main_banner.jpg",
+      logo_url: "img/logo/logo-instant-b-text-orange-mk.png",
+      main_url: "img/instant-gourmand-principale-banner.jpg",
       navie_active: "services",
       canonical_url: rootDomain + "/instants-gourmands.html",
       page_url: "/instants-gourmands.html",
@@ -57,8 +57,8 @@ module.exports = {
       title: "Instants souvenirs d'enfance",
       desc: "Nos animations barbe à papa, pop-corn et notre candy bar transporteront vos convives en enfance le temps de votre événement !",
       hashtags: ["bonbons", "barbapapas", "popcorn"],
-      logo_url: "img/logo/logo_text_pink_mk.png",
-      main_url: "img/enfance_main_banner.jpg",
+      logo_url: "img/logo/logo-instant-b-text-pink-mk.png",
+      main_url: "img/instant-souvenirs-d-enfance-principale-banner.jpg",
       navie_active: "services",
       canonical_url: rootDomain + "/instants-souvenirs.html",
       page_url: "/instants-souvenirs.html",
@@ -73,8 +73,8 @@ module.exports = {
       title: "Instants apéritifs",
       desc: "Notre bar à cocktails et nos sélections de vins, champagnes et bières feront le plaisir de tous et rendront vos réceptions festives et inoubliables !",
       hashtags: ["cocktails", "vins", "champagne", "bières"],
-      logo_url: "img/logo/logo_text_red_mk.png",
-      main_url: "img/apero_main_banner.jpg",
+      logo_url: "img/logo/logo-instant-b-text-red-mk.png",
+      main_url: "img/instant-apéritif-principale-banner.jpg",
       navie_active: "services",
       canonical_url: rootDomain + "/instants-aperitifs.html",
       page_url: "/instants-aperitifs.html",
@@ -89,8 +89,8 @@ module.exports = {
       title: "Instants snacking",
       desc: "Nos Bagels, hot-dogs, burgers, panini, pizzas…sont confectionnés sur place et servis à la demande.",
       hashtags: ["bagels", "hotdog", "paninis", "burgers"],
-      logo_url: "img/logo/logo_text_brown_mk.png",
-      main_url: "img/snacking_main_banner.jpg",
+      logo_url: "img/logo/logo-instant-b-text-brown-mk.png",
+      main_url: "img/instant-snacking-principale-banner.jpg",
       navie_active: "services",
       canonical_url: rootDomain + "/instants-snacking.html",
       page_url: "/instants-snacking.html",
@@ -105,8 +105,8 @@ module.exports = {
       title: "Instants fraîcheur",
       desc: "Idéal pour vos évènements estivaux, nos animations frozen yogourts, glaces à l’italienne, granite et sorbets moléculaires rafraichirons vos invités à coup sûr !",
       hashtags: ["sorbets", "glaces", "frozenYaourt"],
-      logo_url: "img/logo/logo_text_blue.png",
-      main_url: "img/fraicheur_main_banner.jpg",
+      logo_url: "img/logo/logo-instant-b-text-blue.png",
+      main_url: "img/instant-fraicheur-principale-banner.jpg",
       navie_active: "services",
       canonical_url: rootDomain + "/instants-fraicheur.html",
       page_url: "/instants-fraicheur.html",
@@ -123,7 +123,7 @@ module.exports = {
           id: "location",
           name: "Lieux",
           icon_url: "img/icons/houses.svg",
-          img_url: "img/event_location_main.jpg",
+          img_url: "img/évènement-location-principale.jpg",
           prestas: {
             label: "Exemples de lieux",
             list: ["Péniche", "Rooftop", "Terrasse", "Club"]
@@ -134,7 +134,7 @@ module.exports = {
           id: "cater",
           name: "Catering",
           icon_url: "img/icons/cutlery.svg",
-          img_url: "img/event_cater_main.jpg",
+          img_url: "img/évènement-traiteur-principale.jpg",
           prestas: {
             label: "Animations culinaires et buffets traiteurs",
             list: ["Animations culinaires", "Buffet asiatique", "Buffet terroir", "Pièces traiteurs"]
@@ -145,7 +145,7 @@ module.exports = {
           id: "performers",
           name: "Performers",
           icon_url: "img/icons/headphones.svg",
-          img_url: "img/event_performers_main.jpg",
+          img_url: "img/évènement-performers-principale.jpg",
           prestas: {
             label: "Exemples de performers",
             list: ["DJs", "Musiciens", "Barman Flair", "Magiciens"]
@@ -156,7 +156,7 @@ module.exports = {
           id: "photos",
           name: "Photos et vidéos",
           icon_url: "img/icons/photo-camera.svg",
-          img_url: "img/event_photos_main.jpg",
+          img_url: "img/évènement-photos-principale.jpg",
           prestas: {
             label: "Exemples d’animations",
             list: ["Photographe", "Reportage vidéo", "Photobox", "Polaroid"]
@@ -167,7 +167,7 @@ module.exports = {
           id: "activities",
           name: "Activités",
           icon_url: "img/icons/vr.svg",
-          img_url: "img/event_activities_main.jpg",
+          img_url: "img/évènement-activities-principale.jpg",
           prestas: {
             label: "Exemples d'activités",
             list: ["Baby-foot", "Ping-Pong", "Karaoké", "Jeux vidéos"]
@@ -178,7 +178,7 @@ module.exports = {
           id: "transports",
           name: "Transport",
           icon_url: "img/icons/van.svg",
-          img_url: "img/event_transport_main.jpg",
+          img_url: "img/évènement-transport-principale.jpg",
           prestas: {
             label: "Type de véhicules",
             list: ["Berline", "Van", "Mini-bus"]
@@ -186,8 +186,8 @@ module.exports = {
           desc: "Instant-B a noué de nombreux partenariats avec des sociétés de transport afin de conduire vos invités sur le lieu de votre évènement"
         }
       ],
-      logo_url: "img/logo/logo_text_yellow_mk.png",
-      main_url: "img/events.jpg",
+      logo_url: "img/logo/logo-instant-b-text-yellow-mk.png",
+      main_url: "img/évènements.jpg",
       navie_active: "events",
       canonical_url: rootDomain + "/instants-evenements.html",
       page_url: "/evenements.html",
@@ -197,8 +197,8 @@ module.exports = {
     quote: {
       id: "quote",
       hex: "#ffe500",
-      logo_url: "img/logo/logo_text_yellow_mk.png",
-      main_url: "img/vita_main_banner.jpg",
+      logo_url: "img/logo/logo-instant-b-text-yellow-mk.png",
+      main_url: "img/instant-vitaminé-principale-banner.jpg",
       navie_active: "quote",
       canonical_url: rootDomain + "/devis.html",
       page_url: "/devis.html",
@@ -209,7 +209,7 @@ module.exports = {
       id: "photos",
       hex: "#ffe500",
       navie_active: "photos",
-      logo_url: "img/logo/logo_text_yellow_mk.png",
+      logo_url: "img/logo/logo-instant-b-text-yellow-mk.png",
       canonical_url: rootDomain + "/photos.html",
       page_url: "/photos.html",
       page_title: "Instant-B | Photos",
@@ -217,7 +217,7 @@ module.exports = {
     },
     survey: {
       id: "survey", hex: "#ffe500",
-      logo_url: "img/logo/logo_text_yellow_mk.png",
+      logo_url: "img/logo/logo-instant-b-text-yellow-mk.png",
       navie_active: "landing",
       canonical_url: rootDomain + "/survey.html",
       page_url: "/survey.html",
